@@ -1,0 +1,18 @@
+{
+  "checkpoint": "thinkingmachines/TML-d24-varloop-research",
+  "counts": {
+    "full": 4734,
+    "knowledge": 600
+  },
+  "transformations": [
+    "Per-chunk timestamp arrays replaced by first/last times and count; every reported timing scalar retained",
+    "Model outputs, scores, token counts and latency scalars retained",
+    "Job/account identifiers and workstation paths removed",
+    "No weights, credentials, caches or raw server logs exported",
+    "Publisher chart facts extracted without website scripts"
+  ],
+  "source_scored_sha256": {
+    "full": "070c2d48ae23f5b910effd6e92953895f54293548d65ee4ad58601306bda897f",
+    "knowledge": "59a5508022d356a93b327258a684155ce81209566fb95c4d21765cf1c0c20820"
+  }
+}

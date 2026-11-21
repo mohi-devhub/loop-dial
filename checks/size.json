@@ -1,0 +1,30 @@
+{
+  "files": 152,
+  "total_bytes": 11869673,
+  "total_MB": 11.87,
+  "total_MiB": 11.32,
+  "files_over_50MB": 0,
+  "largest_files": [
+    {
+      "path": "results/full/scored-outputs.jsonl.gz",
+      "bytes": 5262007
+    },
+    {
+      "path": "results/knowledge/scored-outputs.jsonl.gz",
+      "bytes": 632981
+    },
+    {
+      "path": "results/full/modal-ledger.jsonl",
+      "bytes": 324206
+    },
+    {
+      "path": "results/knowledge/grader-output.jsonl",
+      "bytes": 303408
+    },
+    {
+      "path": "results/publication/analysis.json",
+      "bytes": 273411
+    }
+  ],
+  "git_lfs_required": false
+}

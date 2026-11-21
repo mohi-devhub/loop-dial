@@ -1,0 +1,173 @@
+{
+  "selection": "All MATH main-run problems correct at 3 passes and incorrect at a higher measured depth; descriptive, selected examples",
+  "examples": [
+    {
+      "checkpoint_label": "thinkingmachines/TML-d24-varloop-research (varloop research checkpoint)",
+      "id": "test/precalculus/989.json",
+      "level": 4,
+      "passes": 4,
+      "training_regime": "midtraining range, not RL'd",
+      "prompt": "Solve the following math problem. Make sure to put the answer (and only answer) inside \\boxed{}.\n\nCompute\n\\[\\frac{1}{\\cos^2 10^\\circ} + \\frac{1}{\\sin^2 20^\\circ} + \\frac{1}{\\sin^2 40^\\circ}.\\]",
+      "expected_answer": "12",
+      "baseline_passes": 3,
+      "baseline_correct_answer": "\\boxed{12}",
+      "baseline_reasoning_tokens": 765,
+      "higher_depth_answer": "",
+      "higher_depth_reasoning_tokens": 8190,
+      "finish_reason": "length",
+      "repeated_8word_phrase": {
+        "occurrences": 288,
+        "phrase": "7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9."
+      },
+      "reasoning_tail": "7246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246+1.4202766 =9. - 7.5797246",
+      "failure_type": "repetition_until_token_limit"
+    },
+    {
+      "checkpoint_label": "thinkingmachines/TML-d24-varloop-research (varloop research checkpoint)",
+      "id": "test/counting_and_probability/181.json",
+      "level": 5,
+      "passes": 4,
+      "training_regime": "midtraining range, not RL'd",
+      "prompt": "Solve the following math problem. Make sure to put the answer (and only answer) inside \\boxed{}.\n\nThere is a total of 70 squares of three sizes whose vertices are points on this rectangular $3\\times n$ grid of points. What is the value of $n$?\n\n[asy]\n\nunitsize(0.4 inch);\n\ndot((0,0),linewidth(9bp));\ndot((1,0),linewidth(9bp));\ndot((2,0),linewidth(9bp));\ndot((0,1),linewidth(9bp));\ndot((0,2),linewidth(9bp));\ndot((1,1),linewidth(9bp));\ndot((2,1),linewidth(9bp));\ndot((1,2),linewidth(9bp));\ndot((2,2),linewidth(9bp));\n\nfilldraw((2.95,-0.05)--(3.05,-0.05)--(3.05,0.05)--(2.95,0.05)--cycle,black);\nfilldraw((2.45,-0.05)--(2.55,-0.05)--(2.55,0.05)--(2.45,0.05)--cycle,black);\nfilldraw((3.45,-0.05)--(3.55,-0.05)--(3.55,0.05)--(3.45,0.05)--cycle,black);\n\nfilldraw((2.95,0.95)--(3.05,0.95)--(3.05,1.05)--(2.95,1.05)--cycle,black);\nfilldraw((2.45,0.95)--(2.55,0.95)--(2.55,1.05)--(2.45,1.05)--cycle,black);\nfilldraw((3.45,0.95)--(3.55,0.95)--(3.55,1.05)--(3.45,1.05)--cycle,black);\n\nfilldraw((2.95,1.95)--(3.05,1.95)--(3.05,2.05)--(2.95,2.05)--cycle,black);\nfilldraw((2.45,1.95)--(2.55,1.95)--(2.55,2.05)--(2.45,2.05)--cycle,black);\nfilldraw((3.45,1.95)--(3.55,1.95)--(3.55,2.05)--(3.45,2.05)--cycle,black);\n\ndot((4,0),linewidth(9bp));\ndot((5,0),linewidth(9bp));\ndot((4,1),linewidth(9bp));\ndot((5,1),linewidth(9bp));\ndot((4,2),linewidth(9bp));\ndot((5,2),linewidth(9bp));\n\n[/asy]",
+      "expected_answer": "19",
+      "baseline_passes": 3,
+      "baseline_correct_answer": "\\boxed{19}",
+      "baseline_reasoning_tokens": 5232,
+      "higher_depth_answer": "",
+      "higher_depth_reasoning_tokens": 8190,
+      "finish_reason": "length",
+      "repeated_8word_phrase": {
+        "occurrences": 1411,
+        "phrase": "q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-?"
+      },
+      "reasoning_tail": "-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=-? q=",
+      "failure_type": "repetition_until_token_limit"
+    },
+    {
+      "checkpoint_label": "thinkingmachines/TML-d24-varloop-research (varloop research checkpoint)",
+      "id": "test/counting_and_probability/525.json",
+      "level": 5,
+      "passes": 4,
+      "training_regime": "midtraining range, not RL'd",
+      "prompt": "Solve the following math problem. Make sure to put the answer (and only answer) inside \\boxed{}.\n\nIn how many ways can $7$ people sit around a round table if no two of the $3$ people Pierre, Rosa, and Thomas can sit next to each other? (Seating arrangements which are rotations of each other are treated as the same.)",
+      "expected_answer": "144",
+      "baseline_passes": 3,
+      "baseline_correct_answer": "\\boxed{144}",
+      "baseline_reasoning_tokens": 712,
+      "higher_depth_answer": "",
+      "higher_depth_reasoning_tokens": 8190,
+      "finish_reason": "length",
+      "repeated_8word_phrase": {
+        "occurrences": 1467,
+        "phrase": "{4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?}"
+      },
+      "reasoning_tail": "?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,?} {4,",
+      "failure_type": "repetition_until_token_limit"
+    },
+    {
+      "checkpoint_label": "thinkingmachines/TML-d24-varloop-research (varloop research checkpoint)",
+      "id": "test/prealgebra/631.json",
+      "level": 3,
+      "passes": 5,
+      "training_regime": "midtraining range, not RL'd",
+      "prompt": "Solve the following math problem. Make sure to put the answer (and only answer) inside \\boxed{}.\n\nQuadrilateral $ABCD$ is a square with area 16 square inches. The figure represents the pieces of a Chinese tangram in which all the triangles are isosceles and piece \"e'' is a square. What is the area of the gray piece, in square inches?\n\n[asy]\nfill((2,0)--(4,2)--(4,0)--cycle,gray(.7));\ndraw((0,0)--(0,4)--(4,4)--(4,0)--cycle,linewidth(1));\ndraw((0,0)--(4,4),linewidth(1));\ndraw((1,1)--(2,0)--(4,2),linewidth(1));\ndraw((0,4)--(3,1)--(3,3),linewidth(1));\nlabel(\"$A$\",(0,4),W);\nlabel(\"$B$\",(4,4),E);\nlabel(\"$C$\",(4,0),E);\nlabel(\"$D$\",(0,0),W);\nlabel(\"e\",(2,1));\n\n[/asy]",
+      "expected_answer": "2",
+      "baseline_passes": 3,
+      "baseline_correct_answer": "\\boxed{2}",
+      "baseline_reasoning_tokens": 6430,
+      "higher_depth_answer": "",
+      "higher_depth_reasoning_tokens": 8190,
+      "finish_reason": "length",
+      "repeated_8word_phrase": {
+        "occurrences": 3,
+        "phrase": "A-D left edge, D-P diagonal, P-? to A?"
+      },
+      "reasoning_tail": " edge between F3 (M-T-S) and F5 (T-B-R-S)? Let's check: F3 M-T-S has edge T-S. F5 T-B-R-S has edge S-T. Yes T-S is shared by F3 and F5. Good. For face A-B-M, edge B-T and T-M are boundary; at T, internal edge T-S goes into F5/F3, not into A-B-M. Fine.\nFace F5: T-B-R-S-T (edges T-B, B-R, R-S, S-T). area2.\nFace F6: Q-R-C-Q? Edges Q-S, S-R (collinear), R-C, C-Q. area2.\nFace F7: A-D-Q-P-M-A? Let's trace remaining region. Remaining vertices/edges not yet assigned: A-D left edge, D-Q bottom edge? Wait D-Q bottom edge is used by F1 (Q-D). Actually D-Q is boundary of F1. Q-C bottom edge used by gray F6. Left edge A-D used by some face. Edge A-M used by F4. Edge M-P used by F2. Edge P-D used by F1. Edge P-Q used by F1/F2? P-Q shared by F1 and F2. Edge Q-S shared by F2 and F6? Wait Q-S is part of Q-R; it is shared by F2 (P-M-S-Q) and F6 (gray)? Let's check: F2 has edge S-Q; gray F6 has edge Q-S (part of Q-R). Yes Q-S shared by F2 and gray. Edge S-R shared by F5 and gray. Edge S-T shared by F3 and F5. Edge T-M shared by F3 and F4? Wait F3 M-T-S has edge M-T; F4 A-B-M has edge T-M (part of B-M). Yes M-T shared by F3 and F4. Edge T-B shared by F4 and F5. Edge B-R shared by F5 and? right edge B-",
+      "failure_type": "token_limit"
+    },
+    {
+      "checkpoint_label": "thinkingmachines/TML-d24-varloop-research (varloop research checkpoint)",
+      "id": "test/counting_and_probability/181.json",
+      "level": 5,
+      "passes": 5,
+      "training_regime": "midtraining range, not RL'd",
+      "prompt": "Solve the following math problem. Make sure to put the answer (and only answer) inside \\boxed{}.\n\nThere is a total of 70 squares of three sizes whose vertices are points on this rectangular $3\\times n$ grid of points. What is the value of $n$?\n\n[asy]\n\nunitsize(0.4 inch);\n\ndot((0,0),linewidth(9bp));\ndot((1,0),linewidth(9bp));\ndot((2,0),linewidth(9bp));\ndot((0,1),linewidth(9bp));\ndot((0,2),linewidth(9bp));\ndot((1,1),linewidth(9bp));\ndot((2,1),linewidth(9bp));\ndot((1,2),linewidth(9bp));\ndot((2,2),linewidth(9bp));\n\nfilldraw((2.95,-0.05)--(3.05,-0.05)--(3.05,0.05)--(2.95,0.05)--cycle,black);\nfilldraw((2.45,-0.05)--(2.55,-0.05)--(2.55,0.05)--(2.45,0.05)--cycle,black);\nfilldraw((3.45,-0.05)--(3.55,-0.05)--(3.55,0.05)--(3.45,0.05)--cycle,black);\n\nfilldraw((2.95,0.95)--(3.05,0.95)--(3.05,1.05)--(2.95,1.05)--cycle,black);\nfilldraw((2.45,0.95)--(2.55,0.95)--(2.55,1.05)--(2.45,1.05)--cycle,black);\nfilldraw((3.45,0.95)--(3.55,0.95)--(3.55,1.05)--(3.45,1.05)--cycle,black);\n\nfilldraw((2.95,1.95)--(3.05,1.95)--(3.05,2.05)--(2.95,2.05)--cycle,black);\nfilldraw((2.45,1.95)--(2.55,1.95)--(2.55,2.05)--(2.45,2.05)--cycle,black);\nfilldraw((3.45,1.95)--(3.55,1.95)--(3.55,2.05)--(3.45,2.05)--cycle,black);\n\ndot((4,0),linewidth(9bp));\ndot((5,0),linewidth(9bp));\ndot((4,1),linewidth(9bp));\ndot((5,1),linewidth(9bp));\ndot((4,2),linewidth(9bp));\ndot((5,2),linewidth(9bp));\n\n[/asy]",
+      "expected_answer": "19",
+      "baseline_passes": 3,
+      "baseline_correct_answer": "\\boxed{19}",
+      "baseline_reasoning_tokens": 5232,
+      "higher_depth_answer": "",
+      "higher_depth_reasoning_tokens": 8190,
+      "finish_reason": "length",
+      "repeated_8word_phrase": {
+        "occurrences": 24,
+        "phrase": "u=(1,-1), v=(1,1) span2. u=(2,-1), v=(1,2) span3. u=(1,1), v=(-1,1)"
+      },
+      "reasoning_tail": "v=(-1,2) no. u=(1,-2), v=(2,1) span3. u=(2,-1), v=(1,2) span3. u=(1,-1), v=(1,1) span2. u=(2,-1), v=(1,2) span3. u=(1,1), v=(-1,1) span2. u=(2,1), v=(-1,2) no. u=(1,2), v=(-2,1) span3. u=(2,1), v=(-1,2) no. u=(1,-2), v=(2,1) span3. u=(2,-1), v=(1,2) span3. u=(1,-1), v=(1,1) span2. u=(2,-1), v=(1,2) span3. u=(1,1), v=(-1,1) span2. u=(2,1), v=(-1,2) no. u=(1,2), v=(-2,1) span3. u=(2,1), v=(-1,2) no. u=(1,-2), v=(2,1) span3. u=(2,-1), v=(1,2) span3. u=(1,-1), v=(1,1) span2. u=(2,-1), v=(1,2) span3. u=(1,1), v=(-1,1) span2. u=(2,1), v=(-1,2) no. u=(1,2), v=(-2,1) span3. u=(2,1), v=(-1,2) no. u=(1,-2), v=(2,1) span3. u=(2,-1), v=(1,2) span3. u=(1,-1), v=(1,1) span2. u=(2,-1), v=(1,2) span3. u=(1,1), v=(-1,1) span2. u=(2,1), v=(-1,2) no. u=(1,2), v=(-2,1) span3. u=(2,1), v=(-1,2) no. u=(1,-2), v=(2,1) span3. u=(2,-1), v=(1,2) span3. u=(1,-1), v=(1,1) span2. u=(2,-1), v=(1,2) span3. u=(1,1), v=(-1,1) span2. u=(2,1), v=(-1,2) no. u=(1,2), v=(-2,1) span3. u=(2,1), v=(-1,2) no. u=(1,-2), v=(2,1) span3. u=(2,-1), v=(1,2) span3. u=(1,-1), v=(1,1) span2. u=(2,-1), v=(1,2) span3. u=(1,1), v=(-1,1) span2. u=(2,1), v=(-1,2) no. u=(1,2), v=(-2,1) span3. u=(2,1), v=(-1,2) no. u=(1,-2), v=(2,1) span3",
+      "failure_type": "repetition_until_token_limit"
+    },
+    {
+      "checkpoint_label": "thinkingmachines/TML-d24-varloop-research (varloop research checkpoint)",
+      "id": "test/intermediate_algebra/1411.json",
+      "level": 4,
+      "passes": 5,
+      "training_regime": "midtraining range, not RL'd",
+      "prompt": "Solve the following math problem. Make sure to put the answer (and only answer) inside \\boxed{}.\n\nSteve says to Jon, \"I am thinking of a polynomial whose roots are all positive integers. The polynomial has the form $P(x) = 2x^3-2ax^2+(a^2-81)x-c$ for some positive integers $a$ and $c$. Can you tell me the values of $a$ and $c$?\"\n\nAfter some calculations, Jon says, \"There is more than one such polynomial.\"\n\nSteve says, \"You're right. Here is the value of $a$.\" He writes down a positive integer and asks, \"Can you tell me the value of $c$?\"\n\nJon says, \"There are still two possible values of $c$.\"\n\nFind the sum of the two possible values of $c$.",
+      "expected_answer": "440",
+      "baseline_passes": 3,
+      "baseline_correct_answer": "\\boxed{440}",
+      "baseline_reasoning_tokens": 2123,
+      "higher_depth_answer": "",
+      "higher_depth_reasoning_tokens": 8190,
+      "finish_reason": "length",
+      "repeated_8word_phrase": {
+        "occurrences": 3392,
+        "phrase": "? ? ? ? ? ? ? ?"
+      },
+      "reasoning_tail": " ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ? ",
+      "failure_type": "repetition_until_token_limit"
+    },
+    {
+      "checkpoint_label": "thinkingmachines/TML-d24-varloop-research (varloop research checkpoint)",
+      "id": "test/intermediate_algebra/2196.json",
+      "level": 5,
+      "passes": 6,
+      "training_regime": "beyond the trained range",
+      "prompt": "Solve the following math problem. Make sure to put the answer (and only answer) inside \\boxed{}.\n\nFind the maximum value of\n\\[\\frac{x - y}{x^4 + y^4 + 6}\\]over all real numbers $x$ and $y.$",
+      "expected_answer": "\\frac{1}{4}",
+      "baseline_passes": 3,
+      "baseline_correct_answer": "\\boxed{\\frac{1}{4}}",
+      "baseline_reasoning_tokens": 761,
+      "higher_depth_answer": "\\boxed{\\frac{5^{3/4}}{16}}",
+      "higher_depth_reasoning_tokens": 1005,
+      "finish_reason": "stop",
+      "repeated_8word_phrase": {
+        "occurrences": 1,
+        "phrase": "We need solve math problem. Need output only"
+      },
+      "reasoning_tail": ". So f <= d/(d^4/8 + 6) = 8d/(d^4+48), for d>=? If d negative numerator negative denominator positive, max positive so d>0. Maximize h(d)=8d/(d^4+48), d>0.\n\nFind max. h(d)=8 d/(d^4+48). Derivative: [8(d^4+48) - 8d*4d^3]/(d^4+48)^2 = 8[d^4+48 -16 d^4]/(...) = 8[48 -15 d^4]/(...) . Set d^4 = 48/15 = 16/5. d = (16/5)^(1/4). Then h_max = 8 d/(d^4+48) = 8 d/(16/5+48) = 8 d/((16+240)/5) = 8 d/(256/5) = 8 d * 5/256 = 40 d/256 = 5d/32. Since d=(16/5)^(1/4). So max = 5/32 * (16/5)^(1/4). Simplify? (16/5)^(1/4) = 2 / 5^(1/4)? Because 16^(1/4)=2. So d=2/5^(1/4). Then max = 5/32 * 2/5^(1/4) = (10/32) 5^{-1/4} = (5/16) 5^{-1/4} = 5^{3/4}/16? Because 5 * 5^{-1/4}=5^{3/4}; 5/16 * 5^{-1/4}=5^{3/4}/16. Yes max = 5^{3/4}/16. Check numeric: 5^0.75=3.3437; /16=0.20898. Alternatively 5/32*(3.2)^(1/4). (3.2)^(1/4)=1.337? 1.337^4=3.2 yes. 5/32*1.337=0.2089. Good.\n\nNeed ensure fixed d minimization valid and equality attainable: x=d/2, y=-d/2. Then x-y=d. Denominator x^4+y^4+6 = d^4/8+6. Yes.\n\nNeed final answer only inside boxed. They said put answer (and only answer) inside boxed. So final should be \\boxed{\\frac{5^{3/4}}{16}} maybe. Need no extra text. Ensure only answer inside boxed. final exactly boxed.",
+      "failure_type": "wrong_final_answer"
+    },
+    {
+      "checkpoint_label": "thinkingmachines/TML-d24-varloop-research (varloop research checkpoint)",
+      "id": "test/number_theory/931.json",
+      "level": 2,
+      "passes": 6,
+      "training_regime": "beyond the trained range",
+      "prompt": "Solve the following math problem. Make sure to put the answer (and only answer) inside \\boxed{}.\n\nIf Rosa's age is divided by 2, 3, 4, or 6, the remainder is 1. If her age is divided by 7, the remainder is 0. She is less than 75 years old. How many years old is Rosa?",
+      "expected_answer": "49",
+      "baseline_passes": 3,
+      "baseline_correct_answer": "\\boxed{49}",
+      "baseline_reasoning_tokens": 385,
+      "higher_depth_answer": "",
+      "higher_depth_reasoning_tokens": 8190,
+      "finish_reason": "length",
+      "repeated_8word_phrase": {
+        "occurrences": 1957,
+        "phrase": "m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-?"
+      },
+      "reasoning_tail": "=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m=-? m",
+      "failure_type": "repetition_until_token_limit"
+    }
+  ]
+}

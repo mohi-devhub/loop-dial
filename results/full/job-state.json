@@ -1,0 +1,31 @@
+{
+  "submitted_epoch": 1795237849.214219,
+  "namespace": "withheld",
+  "rate_usd_per_minute": 0.045833,
+  "prior_attempts_cost_upper_usd": 0,
+  "bundle_sha256": "d12ec77a11ea66bde6e2ce9ffb47a8cf8aa6552a7f630f750dd68e013a49b208",
+  "cap_usd": 15,
+  "cancel_deadline_epoch": 1795255849.214219,
+  "full_run_authorized": true,
+  "job_id": "withheld",
+  "url": "https://huggingface.co/docs/hub/jobs",
+  "stage": "COMPLETED",
+  "history": [
+    {
+      "epoch": 1795237851.325651,
+      "stage": "SCHEDULING"
+    },
+    {
+      "epoch": 1795237857.1729212,
+      "stage": "RUNNING"
+    },
+    {
+      "epoch": 1795243851.742361,
+      "stage": "COMPLETED"
+    }
+  ],
+  "monitor_pid": "withheld",
+  "last_observed_epoch": 1795243851.742361,
+  "conservative_cost_upper_usd": 4.6291329999999995,
+  "terminal_observed_epoch": 1795243851.742361
+}

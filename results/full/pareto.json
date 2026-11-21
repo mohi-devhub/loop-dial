@@ -1,0 +1,72 @@
+[
+  {
+    "domain": "math",
+    "passes": 3,
+    "share_cache": false,
+    "accuracy": 0.99,
+    "amortized_gpu_seconds_per_problem": 0.6784966691001318
+  },
+  {
+    "domain": "math",
+    "passes": 1,
+    "share_cache": false,
+    "accuracy": 0.925,
+    "amortized_gpu_seconds_per_problem": 0.555315373550111
+  },
+  {
+    "domain": "math",
+    "passes": 3,
+    "share_cache": true,
+    "accuracy": 0.985,
+    "amortized_gpu_seconds_per_problem": 0.6081552223299513
+  },
+  {
+    "domain": "gsm8k",
+    "passes": 2,
+    "share_cache": false,
+    "accuracy": 0.9666666666666667,
+    "amortized_gpu_seconds_per_problem": 0.19053695989307015
+  },
+  {
+    "domain": "humaneval",
+    "passes": 3,
+    "share_cache": false,
+    "accuracy": 0.9573170731707317,
+    "amortized_gpu_seconds_per_problem": 1.2093919094388583
+  },
+  {
+    "domain": "humaneval",
+    "passes": 1,
+    "share_cache": false,
+    "accuracy": 0.8048780487804879,
+    "amortized_gpu_seconds_per_problem": 0.9820085837315519
+  },
+  {
+    "domain": "humaneval",
+    "passes": 2,
+    "share_cache": false,
+    "accuracy": 0.9390243902439024,
+    "amortized_gpu_seconds_per_problem": 1.0495735678960934
+  },
+  {
+    "domain": "bbh",
+    "passes": 3,
+    "share_cache": false,
+    "accuracy": 0.9166666666666666,
+    "amortized_gpu_seconds_per_problem": 2.2890243683834948
+  },
+  {
+    "domain": "bbh",
+    "passes": 1,
+    "share_cache": false,
+    "accuracy": 0.7333333333333333,
+    "amortized_gpu_seconds_per_problem": 1.3590429402839315
+  },
+  {
+    "domain": "bbh",
+    "passes": 5,
+    "share_cache": false,
+    "accuracy": 0.95,
+    "amortized_gpu_seconds_per_problem": 2.929877657350153
+  }
+]

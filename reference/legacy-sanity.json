@@ -1,0 +1,30 @@
+{
+  "checkpoint_label": "thinkingmachines/TML-d24-varloop-research (varloop research checkpoint)",
+  "metric": "sgl-eval 0.1.3 vendored NeMo-Skills math_grader (secondary sanity check only)",
+  "summary": [
+    {
+      "passes": 1,
+      "scored": 150,
+      "correct": 133,
+      "accuracy": 0.8866666666666667,
+      "wilson_95": [
+        0.825997250162395,
+        0.928025760859626
+      ],
+      "cookbook_reference": 0.84,
+      "reference_inside_ci": true
+    },
+    {
+      "passes": 3,
+      "scored": 150,
+      "correct": 136,
+      "accuracy": 0.9066666666666666,
+      "wilson_95": [
+        0.8494360687243842,
+        0.9435881325229135
+      ],
+      "cookbook_reference": 0.885,
+      "reference_inside_ci": true
+    }
+  ]
+}

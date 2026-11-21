@@ -1,0 +1,12 @@
+{
+  "completion_window": "24h",
+  "created_at": 1795247896,
+  "endpoint": "/v1/chat/completions",
+  "status": "completed",
+  "completed_at": 1795248057,
+  "request_counts": {
+    "completed": 504,
+    "failed": 0,
+    "total": 504
+  }
+}

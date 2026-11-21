@@ -1,0 +1,118 @@
+{
+  "status": "proposal only, not run",
+  "new_compute_authorized": false,
+  "new_jobs_created": 0,
+  "checked_at_utc": "2026-11-21T07:14:29.992573+00:00",
+  "hardware": "HF Jobs RTX PRO 6000",
+  "rate_usd_per_minute": 0.045833,
+  "source": "https://huggingface.co/api/jobs/hardware",
+  "completed_study_cost_upper_usd": 4.786994139170539,
+  "remaining_under_original_15_usd_cap": 10.213005860829462,
+  "options": [
+    {
+      "questions": 100,
+      "passes": [
+        1,
+        3,
+        5
+      ],
+      "generations": 300,
+      "gpu_nominal_seconds": 1045.4358974358975,
+      "gpu_nominal_usd": 0.824994,
+      "semantic_grader_nominal_usd": 0.8736,
+      "total_nominal_usd": 1.698594,
+      "all_outputs_at_8192_tokens_gpu_usd": 3.529141,
+      "all_outputs_capped_plus_nominal_grader_usd": 4.402741,
+      "assumed_aggregate_tokens_per_second": {
+        "1": 1300,
+        "3": 600,
+        "5": 400
+      },
+      "assumed_mean_completion_tokens": 1024,
+      "server_startup_allowance_seconds": 540,
+      "judge_assumptions": {
+        "model": "gpt-4.1-2025-04-14",
+        "status": "deprecated; endpoint availability and authenticated access must be checked before any paid run",
+        "input_tokens_per_grade": 1200,
+        "output_tokens_per_grade": 64,
+        "input_usd_per_million": 2,
+        "output_usd_per_million": 8,
+        "source": "https://developers.openai.com/api/docs/models/gpt-4.1"
+      }
+    },
+    {
+      "questions": 200,
+      "passes": [
+        1,
+        3,
+        5
+      ],
+      "generations": 600,
+      "gpu_nominal_seconds": 1550.871794871795,
+      "gpu_nominal_usd": 1.1916579999999999,
+      "semantic_grader_nominal_usd": 1.7472,
+      "total_nominal_usd": 2.9388579999999997,
+      "all_outputs_at_8192_tokens_gpu_usd": 6.599952,
+      "all_outputs_capped_plus_nominal_grader_usd": 8.347152,
+      "assumed_aggregate_tokens_per_second": {
+        "1": 1300,
+        "3": 600,
+        "5": 400
+      },
+      "assumed_mean_completion_tokens": 1024,
+      "server_startup_allowance_seconds": 540,
+      "judge_assumptions": {
+        "model": "gpt-4.1-2025-04-14",
+        "status": "deprecated; endpoint availability and authenticated access must be checked before any paid run",
+        "input_tokens_per_grade": 1200,
+        "output_tokens_per_grade": 64,
+        "input_usd_per_million": 2,
+        "output_usd_per_million": 8,
+        "source": "https://developers.openai.com/api/docs/models/gpt-4.1"
+      }
+    },
+    {
+      "questions": 1000,
+      "passes": [
+        1,
+        3,
+        5
+      ],
+      "generations": 3000,
+      "gpu_nominal_seconds": 5594.358974358975,
+      "gpu_nominal_usd": 4.308302,
+      "semantic_grader_nominal_usd": 8.736,
+      "total_nominal_usd": 13.044302000000002,
+      "all_outputs_at_8192_tokens_gpu_usd": 31.303939,
+      "all_outputs_capped_plus_nominal_grader_usd": 40.039939000000004,
+      "assumed_aggregate_tokens_per_second": {
+        "1": 1300,
+        "3": 600,
+        "5": 400
+      },
+      "assumed_mean_completion_tokens": 1024,
+      "server_startup_allowance_seconds": 540,
+      "judge_assumptions": {
+        "model": "gpt-4.1-2025-04-14",
+        "status": "deprecated; endpoint availability and authenticated access must be checked before any paid run",
+        "input_tokens_per_grade": 1200,
+        "output_tokens_per_grade": 64,
+        "input_usd_per_million": 2,
+        "output_usd_per_million": 8,
+        "source": "https://developers.openai.com/api/docs/models/gpt-4.1"
+      }
+    }
+  ],
+  "recommended_questions": 200,
+  "proposed_incremental_hard_cap_usd": 9,
+  "combined_upper_budget_if_cap_approved_usd": 13.786994139170538,
+  "limitations": [
+    "Rates and output lengths are assumptions anchored to other domains; SimpleQA speed was not measured.",
+    "The capped-output scenario is a sensitivity calculation, not a guaranteed runtime bound; a dollar watchdog must stop before the cap if performance is slower.",
+    "Semantic grading is required. The math numeric grader is unsuitable for factual names and aliases.",
+    "Grader API charges require separate API access and are not covered by HF credits. No grader call or credential access was attempted.",
+    "GPT-4.1 is deprecated. Verify access and obtain agreement on a replacement or blinded manual review if it is unavailable; never silently change the grader.",
+    "Judge cost assumes 1,200 input and 64 output tokens per final-answer grade; longer answers can increase it.",
+    "A 200-question sample has limited power to establish small differences. A nonsignificant change would not prove knowledge equivalence."
+  ]
+}

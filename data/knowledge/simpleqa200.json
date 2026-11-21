@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "SimpleQA-Verified/2305",
+    "domain": "simpleqa",
+    "prompt": "Which high school did John Joseph Kamotho, a former Member of Parliament for Mathioya and Kangema Constituency, attend?",
+    "prompt_sha256": "f02f38b4fdce7729375560c7fcc16125339b83dcc3380fceced46d27c98afbe6",
+    "expected_answer": "Nyeri High School",
+    "original_index": 2305,
+    "topic": "Politics",
+    "answer_type": "Place"
+  },
+  {
+    "id": "SimpleQA-Verified/1328",
+    "domain": "simpleqa",
+    "prompt": "How many children did gay rights activist Morris Kight have?",
+    "prompt_sha256": "d04a88cabe495cbf4669e46d08e4f7480764145c6f751a3678b8a55d6ab09153",
+    "expected_answer": "2",
+    "original_index": 1328,
+    "topic": "Politics",
+    "answer_type": "Number"
+  },
+  {
+    "id": "SimpleQA-Verified/32",
+    "domain": "simpleqa",
+    "prompt": "What day, month, and year was Carrie Underwood's album \"Cry Pretty\" certified Gold by the RIAA?",
+    "prompt_sha256": "1166b7602b0e2161302ec2f6f418b26af60346a329f3321c45ef2771132aa741",
+    "expected_answer": "Oct 23, 2018",
+    "original_index": 32,
+    "topic": "Music",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/2411",
+    "domain": "simpleqa",
+    "prompt": "In what year did fashion designer Mowalola Ogunlesi drop out of Central Saint Martins?",
+    "prompt_sha256": "321cb50604423085be85ca44c18aceb980bb6f561f2e061548072512d4229660",
+    "expected_answer": "2018",
+    "original_index": 2411,
+    "topic": "Art",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/2300",
+    "domain": "simpleqa",
+    "prompt": "As of 2022, what year did the Centro Botín Centre in Spain have the exhibition named 'Amigos'?",
+    "prompt_sha256": "f86c33de4bbd152eef5cb86f409937be1ce27d22f4c61420d540a354b7ef0125",
+    "expected_answer": "2019",
+    "original_index": 2300,
+    "topic": "Art",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/750",
+    "domain": "simpleqa",
+    "prompt": "What is the name of the man who purchased Belmont on St. Saviour's Hill, Jersey, UK, in 1822?",
+    "prompt_sha256": "45dad6c06ba443d60750eed275fba966db845cd1dd3ef3b9e0e884350652d171",
+    "expected_answer": "Sir Colin Halkett",
+    "original_index": 750,
+    "topic": "History",
+    "answer_type": "Person"
+  },
+  {
+    "id": "SimpleQA-Verified/3737",
+    "domain": "simpleqa",
+    "prompt": "What is the name of the university where Michaela Hübschle (born as Michaela Kuntze), a Namibian politician and former Deputy Minister for Prisons and Correctional Services, first studied after attending school in her hometown?",
+    "prompt_sha256": "96dd9bedc729342fb6b64f6be6bc10e0b23fa2ae479b25bf730efedd435c2446",
+    "expected_answer": "University of Pretoria",
+    "original_index": 3737,
+    "topic": "Politics",
+    "answer_type": "Place"
+  },
+  {
+    "id": "SimpleQA-Verified/4145",
+    "domain": "simpleqa",
+    "prompt": "What is the architectural style of the Odd Fellows Hall building in Eureka, California?",
+    "prompt_sha256": "ed04cd4e0d6aa028b33663a2d06e408fcb6a0076e245a179b6b1a4540b294398",
+    "expected_answer": "Second Empire (also know as \"French Empire\" or \"2nd Empire/Italianate\")",
+    "original_index": 4145,
+    "topic": "Art",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/283",
+    "domain": "simpleqa",
+    "prompt": "According to the 2021 World Bank data, which country has the largest renewable freshwater resources per capita?",
+    "prompt_sha256": "c2b058acc822f12f61bca6fba863511662c006dfbe518ef684781419e2583e99",
+    "expected_answer": "Iceland",
+    "original_index": 283,
+    "topic": "Geography",
+    "answer_type": "Place"
+  },
+  {
+    "id": "SimpleQA-Verified/3757",
+    "domain": "simpleqa",
+    "prompt": "Who did Manny Diaz Jr. lose to when he ran for the Miami-Dade County School Board in 2010?",
+    "prompt_sha256": "31a5c7a13020d6b9f42d9a8d18663a4ee9b2a37af11ac3c62316baea0709b45c",
+    "expected_answer": "Perla Tabares Hantman",
+    "original_index": 3757,
+    "topic": "Politics",
+    "answer_type": "Person"
+  },
+  {
+    "id": "SimpleQA-Verified/1734",
+    "domain": "simpleqa",
+    "prompt": "Who was the first-ever personality to hoist the Indian National Flag in the Metaverse at the 'Azadi Ka Amrit Mahotsav' Metaverse event in 2022?",
+    "prompt_sha256": "e2bf370ff7f5023dbd29357a5ae4f9f4a6107a8c4a5d0139c821c5456e38b7fa",
+    "expected_answer": "Adil Hussain",
+    "original_index": 1734,
+    "topic": "Other",
+    "answer_type": "Person"
+  },
+  {
+    "id": "SimpleQA-Verified/353",
+    "domain": "simpleqa",
+    "prompt": "In which year was Neelam Sanjiva Reddy first elected to the Lok Sabha from Hindupur?",
+    "prompt_sha256": "b4da70e1f1d77ef79c1e4741686217d7d9693dc4ad0dc645dc7af6d9ee79912d",
+    "expected_answer": "1967",
+    "original_index": 353,
+    "topic": "Politics",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/213",
+    "domain": "simpleqa",
+    "prompt": "Which TV station did Belva Davis make her debut on?",
+    "prompt_sha256": "443c064fa54cee0f07e41651c65c23374fd229805df9b0cc3c2ea64cf871207e",
+    "expected_answer": "KTVU",
+    "original_index": 213,
+    "topic": "TV shows",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/236",
+    "domain": "simpleqa",
+    "prompt": "What was the song for the lip sync in Episode 5, Season 1 of RPDR?",
+    "prompt_sha256": "3b8af85d49d7315f386d1ac244c5ad2cb8518a6d2e613aaddb0af85fa673bceb",
+    "expected_answer": "\"Stronger\" by Britney Spears",
+    "original_index": 236,
+    "topic": "TV shows",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/3501",
+    "domain": "simpleqa",
+    "prompt": "Who is the father of the Aruban politician Dangui Oduber?",
+    "prompt_sha256": "e007c4caddcbb73a4f29d9bcc9d38700ed0fda1aa5c1e926497cc249ebc71933",
+    "expected_answer": "Nelson Oduber",
+    "original_index": 3501,
+    "topic": "Politics",
+    "answer_type": "Person"
+  },
+  {
+    "id": "SimpleQA-Verified/1872",
+    "domain": "simpleqa",
+    "prompt": "What were the date, month, and year when Saddam’s government laid out its combined objections to the Arab League, including that policy moves were costing Iraq $1 billion a year, that Kuwait was still using the Rumaila oil field, and that loans made by the UAE and Kuwait could not be considered debts to its \"Arab brothers\"?",
+    "prompt_sha256": "ba9155d5c5914715c90c2cf6f4d0b52c430613ec510a0f3ded6834979e174830",
+    "expected_answer": "15 July 1990",
+    "original_index": 1872,
+    "topic": "Politics",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/2250",
+    "domain": "simpleqa",
+    "prompt": "Name the village in Iran from which Tilla embroidery originated.",
+    "prompt_sha256": "3373e2f1ddb9fa655e17bf4964388d065ffa17f25195d00a4a518e7287cfe77e",
+    "expected_answer": "Zari.",
+    "original_index": 2250,
+    "topic": "Art",
+    "answer_type": "Place"
+  },
+  {
+    "id": "SimpleQA-Verified/1001",
+    "domain": "simpleqa",
+    "prompt": "What was the first and last name of the recipient of the Annie Jump Cannon Award in Astronomy in 1952?",
+    "prompt_sha256": "f8e8beab2a212d20dec7229b2432382bba18b9e5ff18b73bca236e44482fc3b4",
+    "expected_answer": "Ida Barney",
+    "original_index": 1001,
+    "topic": "Science and technology",
+    "answer_type": "Person"
+  },
+  {
+    "id": "SimpleQA-Verified/2489",
+    "domain": "simpleqa",
+    "prompt": "Name the first 3D planetarium in India.",
+    "prompt_sha256": "d7ecf41dd831d1ddadcdc2d396999931350f62ccbfaf318d12622bef5e06fb15",
+    "expected_answer": "Swami Vivekananda Planetarium",
+    "original_index": 2489,
+    "topic": "Science and technology",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/2646",
+    "domain": "simpleqa",
+    "prompt": "In which genus was the orange-spotted bulbul originally described in 1821?",
+    "prompt_sha256": "4d2468c871bb288e79d73987ccaee18c81caab33dd3e8fdee5abc9630211c08a",
+    "expected_answer": "Turdus",
+    "original_index": 2646,
+    "topic": "Science and technology",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/835",
+    "domain": "simpleqa",
+    "prompt": "Which famous video game character is featured in the music video for Die Ärzte's song \"Men Are Pigs\"?",
+    "prompt_sha256": "d8df419c7939056cfaf1d3152bf182b5c2a05efbdb0ebeeb333b3fab1664def0",
+    "expected_answer": "Lara Croft",
+    "original_index": 835,
+    "topic": "Music",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/2522",
+    "domain": "simpleqa",
+    "prompt": "What were the month and year when Netflix announced official support for ChromeOS through its streaming service, allowing Chromebooks to watch streaming movies and TV shows via Netflix?",
+    "prompt_sha256": "a2dbd34577781230712cec2d51b2e5cbcc64839d6ce293d18f7f151cece7aa79",
+    "expected_answer": "August 2011",
+    "original_index": 2522,
+    "topic": "Science and technology",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/1661",
+    "domain": "simpleqa",
+    "prompt": "What record label produced Avenger's 1985 EP containing the song \"Down to the Bone\"?",
+    "prompt_sha256": "75d71f60621a3749cf609ccbeda1fbba69610237e681f74a86e9582c9a0acedf",
+    "expected_answer": "Wishbone Records",
+    "original_index": 1661,
+    "topic": "Music",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/2827",
+    "domain": "simpleqa",
+    "prompt": "What TTRPG won the 2016 Indie RPG of the Year award?",
+    "prompt_sha256": "d36d2164b228948512b983fa34d5596aa2f2afc2f6193f053087e6c3155d68c8",
+    "expected_answer": "Blades in the Dark",
+    "original_index": 2827,
+    "topic": "Other",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/1631",
+    "domain": "simpleqa",
+    "prompt": "How many candidates entered their work in the Prix de Rome in the engraving category in 1805?",
+    "prompt_sha256": "c6482d90e8b75f86a7897923882c1e395e80edf9184c8d1c9b34540516a078cb",
+    "expected_answer": "1",
+    "original_index": 1631,
+    "topic": "Art",
+    "answer_type": "Number"
+  },
+  {
+    "id": "SimpleQA-Verified/3667",
+    "domain": "simpleqa",
+    "prompt": "What Little League did Johnny Damon play baseball in as a child before junior high school?",
+    "prompt_sha256": "d9fa38a789dad7cb6fb099cccc2c911cdb3b9f4259b0cee2bb5a8a03ef70d94f",
+    "expected_answer": "South Orange Little League",
+    "original_index": 3667,
+    "topic": "Sports",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/2791",
+    "domain": "simpleqa",
+    "prompt": "For how many consecutive terms was the Indian politician Babanrao Shankar Gholap, alias Nana, elected to the Vidhan Sabha?",
+    "prompt_sha256": "adc2ae1bb6c16637f090b84fecef875ceb39d1e0dae9cf6620df3a9768d5c36f",
+    "expected_answer": "5",
+    "original_index": 2791,
+    "topic": "Politics",
+    "answer_type": "Number"
+  },
+  {
+    "id": "SimpleQA-Verified/1061",
+    "domain": "simpleqa",
+    "prompt": "Who was the 38th mayor of Toronto?",
+    "prompt_sha256": "ac9f30c374c8bbf2ef0a43870e5f21ce262860c2a929e9b36171d08584bc25d5",
+    "expected_answer": "Charles Alfred Maguire.",
+    "original_index": 1061,
+    "topic": "Politics",
+    "answer_type": "Person"
+  },
+  {
+    "id": "SimpleQA-Verified/3797",
+    "domain": "simpleqa",
+    "prompt": "What was the first band Robbie Robertson joined that formed in '56?",
+    "prompt_sha256": "8de440070c955f212c2a08d821e2199cfb1c1654665dc9899477a4ba1f2755a0",
+    "expected_answer": "Little Caesar and the Consuls",
+    "original_index": 3797,
+    "topic": "Music",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/1205",
+    "domain": "simpleqa",
+    "prompt": "What is the accession number given by the Metropolitan Museum of Art for Hendrick Goltzius' \"Farnese Hercules\"?",
+    "prompt_sha256": "37c9427fb30f5c487b85fd3273ef4b0e117452cb75abfac06128a87fb5d8cf57",
+    "expected_answer": "17.37.59",
+    "original_index": 1205,
+    "topic": "Art",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/3637",
+    "domain": "simpleqa",
+    "prompt": "What was the rank of Oussama Mellouli at the 2000 Olympics for the men's 400-metre individual medley?",
+    "prompt_sha256": "bb9a0c1b33d5cd7ecc7d251d6993e25aaafffd17a4d56508597bb28a4f1d982d",
+    "expected_answer": "43rd.",
+    "original_index": 3637,
+    "topic": "Sports",
+    "answer_type": "Number"
+  },
+  {
+    "id": "SimpleQA-Verified/1221",
+    "domain": "simpleqa",
+    "prompt": "With what time to the nearest second did Joeri Adams end the race, ranking in first position, in the 2007 UCI Cyclo-cross World Championships – Men's junior race?",
+    "prompt_sha256": "8865620df4549b70301820e05e74471bc3c04a9f145f0f54bcd82e03c54b4c88",
+    "expected_answer": "41:18 (acceptable range: anything between 41:17 and 41:19)",
+    "original_index": 1221,
+    "topic": "Sports",
+    "answer_type": "Number"
+  },
+  {
+    "id": "SimpleQA-Verified/342",
+    "domain": "simpleqa",
+    "prompt": "What was the age gap between George Frederic Watts and his first wife, Ellen Terry?",
+    "prompt_sha256": "16f1ed9929190c4ffd33b484ad7f68d1cd9cc3e979e3c56aed1af8b88fd7ff30",
+    "expected_answer": "30 years.",
+    "original_index": 342,
+    "topic": "Art",
+    "answer_type": "Number"
+  },
+  {
+    "id": "SimpleQA-Verified/4248",
+    "domain": "simpleqa",
+    "prompt": "Which high school did former Assistant Secretary of Commerce and Labor Frank Bestow Wiborg attend?",
+    "prompt_sha256": "d03bd4b4d815a67f4608f3a88190cb9fde96aee15cffb89c7038356a96eb4a18",
+    "expected_answer": "Chickering Scientific and Classical Institute",
+    "original_index": 4248,
+    "topic": "Politics",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/618",
+    "domain": "simpleqa",
+    "prompt": "In which year of the Olympics did Seiko become the Official Timer?",
+    "prompt_sha256": "e77af761de30bd9aad9862ec4984b0102fa3b1038b4004f73b04e0a8c4503ea6",
+    "expected_answer": "1964",
+    "original_index": 618,
+    "topic": "Sports",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/3452",
+    "domain": "simpleqa",
+    "prompt": "What was the name of the architect who rebuilt Dalby Hall in Lincolnshire for J. W. Preston in 1856 after the home was destroyed by fire?",
+    "prompt_sha256": "081aed87ad285bd90b0f8b2f6cabf667d4c1e4755825db0884dac4cc411e1bb2",
+    "expected_answer": "James Fowler",
+    "original_index": 3452,
+    "topic": "Art",
+    "answer_type": "Person"
+  },
+  {
+    "id": "SimpleQA-Verified/252",
+    "domain": "simpleqa",
+    "prompt": "What was the nationality of the scientists who used lasers to measure Usain Bolt’s performance in the different stages of a 100-meter race held in September 2011?",
+    "prompt_sha256": "f24925b9df00d89105aea7990db9f0cd19d2ff5c53372c54b8385435a25f3755",
+    "expected_answer": "Belgian",
+    "original_index": 252,
+    "topic": "Sports",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/1049",
+    "domain": "simpleqa",
+    "prompt": "What day, month, and year did the original ActRaiser soundtrack come out in Japan?",
+    "prompt_sha256": "70f8bda5f2899fcfc5592bf37310f72c717cdb854f22c144c114ff217a70d7f3",
+    "expected_answer": "January 25, 1991",
+    "original_index": 1049,
+    "topic": "Music",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/69",
+    "domain": "simpleqa",
+    "prompt": "What position was Everton in when Rafael Benítez was sacked in the 2021-22 Premier League season?",
+    "prompt_sha256": "b56d3889f992ed99c66a11572fff64e64898eb0a451b69a50ede3693a7932146",
+    "expected_answer": "15th place",
+    "original_index": 69,
+    "topic": "Sports",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/1794",
+    "domain": "simpleqa",
+    "prompt": "Kos of the Dorian Pentapolis produced coinage featuring variations of which two images?",
+    "prompt_sha256": "aabafb0c7beb1ddad7bb85642076d8bce0e6da6b497151261bd6bb6505873be1",
+    "expected_answer": "A crab and Heracles",
+    "original_index": 1794,
+    "topic": "Art",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/2783",
+    "domain": "simpleqa",
+    "prompt": "For how many years was the original Omsund Bridge in Kristiansund, Norway, in use?",
+    "prompt_sha256": "a9e760fc1052cd98d6d66032b595db1073cf01505a041994e13eca5e8dcadb80",
+    "expected_answer": "41",
+    "original_index": 2783,
+    "topic": "Geography",
+    "answer_type": "Number"
+  },
+  {
+    "id": "SimpleQA-Verified/2623",
+    "domain": "simpleqa",
+    "prompt": "Which two architects built the Pizzurno Palace?",
+    "prompt_sha256": "e606101f398d0781e6c4892fdfc50762bd5b1274e3209785e2b2ef2bac8cac8a",
+    "expected_answer": "Carlos Adolfo Altgelt and Hans Altgelt",
+    "original_index": 2623,
+    "topic": "Art",
+    "answer_type": "Person"
+  },
+  {
+    "id": "SimpleQA-Verified/3685",
+    "domain": "simpleqa",
+    "prompt": "In which general elections (year) was Makhdum Khusro Bakhtyar (Pakistani politician) re-elected to the National Assembly as an independent candidate from Constituency NA-194 (Rahim Yar Khan-III)?",
+    "prompt_sha256": "b32f9c6f743f3c70cb2acd96325a0bd8512b4f78dc435fcefc263d6752ebb694",
+    "expected_answer": "2013",
+    "original_index": 3685,
+    "topic": "Politics",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/2997",
+    "domain": "simpleqa",
+    "prompt": "What are the four classifications of techniques and methodologies for mental fatigue measurement mentioned in Faramarz Gharagozlou et al.'s 2015 research paper, \"Detecting Driver Mental Fatigue Based on EEG Alpha Power Changes During Simulated Driving\"?",
+    "prompt_sha256": "fcfba6f3e0f42b43e146ca4066db9b84d049661c70cc17d09ad100738eef850a",
+    "expected_answer": "subjective,  psychological,  performance and physiological  methods",
+    "original_index": 2997,
+    "topic": "Science and technology",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/3328",
+    "domain": "simpleqa",
+    "prompt": "What flowers were shown in artist J.C. Leyendecker's May 30, 1914, \"The Saturday Evening Post\" cover?",
+    "prompt_sha256": "d7dfe0cf578eff1e557ae59eef08da9e2176249c7cbdd6332f8bc25c64649022",
+    "expected_answer": "Hyacinths",
+    "original_index": 3328,
+    "topic": "Art",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/1441",
+    "domain": "simpleqa",
+    "prompt": "In which year was Alexandra Park declared a local nature reserve?",
+    "prompt_sha256": "f4c56c92fe080b51b4802014cc08e6527ae3d227785f2b680b62cfda092ddb12",
+    "expected_answer": "2013",
+    "original_index": 1441,
+    "topic": "Geography",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/517",
+    "domain": "simpleqa",
+    "prompt": "Which medal in the 1932 Summer Olympics art competition did Frederick William MacMonnies receive?",
+    "prompt_sha256": "0159f3cb27c88c50b0ba399e566d27fa3ebb53071b4d7ec775011c72d4ca60db",
+    "expected_answer": "Silver",
+    "original_index": 517,
+    "topic": "Art",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/1975",
+    "domain": "simpleqa",
+    "prompt": "How many cards are in the \"Moonology Messages Oracle\" card deck created by Yasmin Boland?",
+    "prompt_sha256": "a65c7e99a539978829473c127fb4a381dc49847abd4e1f1db8a43fb5c5efc369",
+    "expected_answer": "48",
+    "original_index": 1975,
+    "topic": "Other",
+    "answer_type": "Number"
+  },
+  {
+    "id": "SimpleQA-Verified/3006",
+    "domain": "simpleqa",
+    "prompt": "In what month and year did Andrew Cuomo sign a bill to create Palm Tree, New York?",
+    "prompt_sha256": "5616957bc78158475f0c5adc9185cbc0d6a6a4c0c090bd27c320ec8f43de4193",
+    "expected_answer": "July 2018",
+    "original_index": 3006,
+    "topic": "Politics",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/2438",
+    "domain": "simpleqa",
+    "prompt": "In what prison did Jean-Marc Rouillan marry Nathalie Ménigon?",
+    "prompt_sha256": "e8071f29609b50cd3388e268ee9c40dc51d4ca81791fa25ab309eaa6a7d7e4bd",
+    "expected_answer": "Fleury-Mérogis Prison",
+    "original_index": 2438,
+    "topic": "Politics",
+    "answer_type": "Place"
+  },
+  {
+    "id": "SimpleQA-Verified/14",
+    "domain": "simpleqa",
+    "prompt": "Who requested the Federal Aviation Administration (FAA) implement a 900 sq mi (2,300 km2) temporary flight restriction zone over the operations areas of the Deepwater Horizon?",
+    "prompt_sha256": "a48534ed4366a84925c5de5f1b4be655731cfc9f59d65c36b188ae3bc7be1d1c",
+    "expected_answer": "The Coast Guard",
+    "original_index": 14,
+    "topic": "Politics",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/71",
+    "domain": "simpleqa",
+    "prompt": "Who replaced Don Santos in the band group Immature?",
+    "prompt_sha256": "4b405925025eba595f47f43a967dffc2bbf5045c9650696d64ee52274f8cdabe",
+    "expected_answer": "Kelton \"LDB\" Kessee",
+    "original_index": 71,
+    "topic": "Music",
+    "answer_type": "Person"
+  },
+  {
+    "id": "SimpleQA-Verified/3763",
+    "domain": "simpleqa",
+    "prompt": "What's the painting by Munch called with a tired girl lying on a bed painted in 1894?",
+    "prompt_sha256": "172aeae021b79e2ec0bb79de22c371a4992141416267dfaafcf6834678b7b8e7",
+    "expected_answer": "The Day After",
+    "original_index": 3763,
+    "topic": "Art",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/2178",
+    "domain": "simpleqa",
+    "prompt": "On what day, month, and year was the actor and singer Corbin Bleu's portrait added to the Broadway Wall of Fame at Tony's Di Napoli restaurant in New York?",
+    "prompt_sha256": "ced9c2d9c9b135607104e22027218a271144a1bf1024c731078ab891dd55a29f",
+    "expected_answer": "March 16, 2010",
+    "original_index": 2178,
+    "topic": "Art",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/1050",
+    "domain": "simpleqa",
+    "prompt": "What day, month, and year was the article \"An Electric Self-Sensing and Variable-Stiffness Artificial Muscle\" by Chen Liu, James J. C. Busfield, and Ketao Zhang first published?",
+    "prompt_sha256": "e6621e5db70b3f429c2c8fe325eef7c21266f410d0cbae3a58fbb247db6d267c",
+    "expected_answer": "08 July 2023",
+    "original_index": 1050,
+    "topic": "Science and technology",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/2454",
+    "domain": "simpleqa",
+    "prompt": "What multiple-choice letter option could be selected by pressing the button surrounded by yellow on the chest plate of the original 2-XL Robot, which was released between 1978-1981 by Mego Corporation, based on its default overlay?",
+    "prompt_sha256": "a96e045c75a3dfb8e8b08617220ac151cc669d948e205ce7d47a2b0184794b46",
+    "expected_answer": "C",
+    "original_index": 2454,
+    "topic": "Science and technology",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/37",
+    "domain": "simpleqa",
+    "prompt": "What is the first and last name of the woman whom the British linguist Bernard Comrie married in 1985?",
+    "prompt_sha256": "c5adcd6caf868057ca414374730cbc1086110c482a6c28a4626704fdeb050da0",
+    "expected_answer": "Akiko Kumahira",
+    "original_index": 37,
+    "topic": "Other",
+    "answer_type": "Person"
+  },
+  {
+    "id": "SimpleQA-Verified/4103",
+    "domain": "simpleqa",
+    "prompt": "In what city and country did Gustave \"Gus\" Fitzhugh Touchard Jr. pass away?",
+    "prompt_sha256": "df3de637f963eb980bad9c61933cf8dc2c2f5d4c119aebb30bec33d43ad80463",
+    "expected_answer": "Toronto, Canada",
+    "original_index": 4103,
+    "topic": "Sports",
+    "answer_type": "Place"
+  },
+  {
+    "id": "SimpleQA-Verified/3709",
+    "domain": "simpleqa",
+    "prompt": "In which city and province was David Sweet born?",
+    "prompt_sha256": "5b3d1a52183b39a5cd0f642eb155e86c1e5f628ff48b65a234739414c2f8a021",
+    "expected_answer": "Kingston, Ontario",
+    "original_index": 3709,
+    "topic": "Geography",
+    "answer_type": "Place"
+  },
+  {
+    "id": "SimpleQA-Verified/4287",
+    "domain": "simpleqa",
+    "prompt": "Which English singer was a film and television critic for The Observer from 1965 to 1973?",
+    "prompt_sha256": "98276a3eabebd41b5f96d067a6e3f4866186bc6326823f7668ed138e9e794edd",
+    "expected_answer": "George Melly",
+    "original_index": 4287,
+    "topic": "Music",
+    "answer_type": "Person"
+  },
+  {
+    "id": "SimpleQA-Verified/9",
+    "domain": "simpleqa",
+    "prompt": "To whom did Mehbooba Mufti Sayed contest the 2019 Lok Sabha elections and lose?",
+    "prompt_sha256": "51f0b9e9a81e9d8292a3796082f18050cc8a86246a1599e5af2cdce16f381bb0",
+    "expected_answer": "Hasnain Masoodi",
+    "original_index": 9,
+    "topic": "Politics",
+    "answer_type": "Person"
+  },
+  {
+    "id": "SimpleQA-Verified/4076",
+    "domain": "simpleqa",
+    "prompt": "In which year did Professor Julia Rucklidge earn a Bachelor of Science from McGill University in Montreal, Canada?",
+    "prompt_sha256": "add200f0043b30b2a63e7b36357f331035fa9da69df05e3c1df7b419f832ba89",
+    "expected_answer": "1992",
+    "original_index": 4076,
+    "topic": "Other",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/2166",
+    "domain": "simpleqa",
+    "prompt": "On which album does the Relient K song \"May the Horse Be with You\" first appear?",
+    "prompt_sha256": "c54fae8db211e1ee860e0dd45806e4843874e32d07fe01ffb5889cd37a146e7b",
+    "expected_answer": "The Anatomy of the Tongue in Cheek",
+    "original_index": 2166,
+    "topic": "Music",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/279",
+    "domain": "simpleqa",
+    "prompt": "New Yorker Edward A. Tuttle's patent application was granted on October 11, 1881, for what kind of machine?",
+    "prompt_sha256": "8d153813b7a404e2459043863795012108c29520e8c0442ae59a1a41bf725c51",
+    "expected_answer": "Exercising Machine",
+    "original_index": 279,
+    "topic": "Science and technology",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/3078",
+    "domain": "simpleqa",
+    "prompt": "What was the name of the elementary school where World Changers Ministries Christian Center held their first worship service?",
+    "prompt_sha256": "d77d918f00f1969dc20786d109b29e16e42216f1acf6dd71c32dcfac120a7903",
+    "expected_answer": "Kathleen Mitchell Elementary School",
+    "original_index": 3078,
+    "topic": "Other",
+    "answer_type": "Place"
+  },
+  {
+    "id": "SimpleQA-Verified/3442",
+    "domain": "simpleqa",
+    "prompt": "In which year did George Bentham change the name of *Hedaroma pinifolium* to *Pimelea pinifolia*?",
+    "prompt_sha256": "8a3f086839d9758cbd2881fffc39b69de11ebbbb62e2f5319cd8c1e78a67a93a",
+    "expected_answer": "1865",
+    "original_index": 3442,
+    "topic": "Science and technology",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/2947",
+    "domain": "simpleqa",
+    "prompt": "What is the third-tallest mountain in Romania?",
+    "prompt_sha256": "a457775f91a5a14c9a8b756445aeee96bedc0e035aea00fa1c9ab6851d793432",
+    "expected_answer": "Viștea Mare",
+    "original_index": 2947,
+    "topic": "Geography",
+    "answer_type": "Place"
+  },
+  {
+    "id": "SimpleQA-Verified/459",
+    "domain": "simpleqa",
+    "prompt": "What day, month, and year was the \"Playlist: The Very Best of Heather Headley\" released?",
+    "prompt_sha256": "fa70269e04b74c33c208b92334b60d9cc147273cb15e6c42fe7d6426303ab881",
+    "expected_answer": "May 29, 2012",
+    "original_index": 459,
+    "topic": "Music",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/1573",
+    "domain": "simpleqa",
+    "prompt": "Which Indian cricketer has been appointed UNICEF and Cricket for Good Ambassador for the ICC Women’s World Cup 2017?",
+    "prompt_sha256": "f5dcff1e02cf0629c1eef1f61f5b29a5439740800bb8fc03157a4a5ab132f974",
+    "expected_answer": "Sachin Tendulkar",
+    "original_index": 1573,
+    "topic": "Sports",
+    "answer_type": "Person"
+  },
+  {
+    "id": "SimpleQA-Verified/97",
+    "domain": "simpleqa",
+    "prompt": "What day, month, and year was Notepad++ version 7.8.8 released?",
+    "prompt_sha256": "7792a11dee83ae942e8fffde4b077c9fbd3ff4e1da2af9b458631048401086ce",
+    "expected_answer": "June 28, 2020",
+    "original_index": 97,
+    "topic": "Science and technology",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/4264",
+    "domain": "simpleqa",
+    "prompt": "Who won the Benjamin Franklin Medal for Computer and Cognitive Science in 2002?",
+    "prompt_sha256": "84f48af5492248fe0c35e3975982a72408a9e47af62a9baff4257750124430e6",
+    "expected_answer": "Lucy Suchman",
+    "original_index": 4264,
+    "topic": "Science and technology",
+    "answer_type": "Person"
+  },
+  {
+    "id": "SimpleQA-Verified/589",
+    "domain": "simpleqa",
+    "prompt": "Which college in Srinagar was accredited as the College for Potential Excellence by the University Grants Commission (India) in April 2010?",
+    "prompt_sha256": "4e0f005cec05664bbb6afd8c140700f3cc98c6d6436c88fb9afdb6c5812f97ee",
+    "expected_answer": "Islamia College of Science and Commerce",
+    "original_index": 589,
+    "topic": "Other",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/1529",
+    "domain": "simpleqa",
+    "prompt": "Which company launched India’s first commercial MCU chip?",
+    "prompt_sha256": "48afd6d63b0dbcafd903b36f527422da684d286f6f460e1e6f7702d373f67527",
+    "expected_answer": "Mindgrove",
+    "original_index": 1529,
+    "topic": "Science and technology",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/1427",
+    "domain": "simpleqa",
+    "prompt": "In which stadium did Die Ärzte play on New Year's Eve 2006?",
+    "prompt_sha256": "a219a6486b340770f455c94c634878523786e0c19bd8e70d40ace8028435c2fe",
+    "expected_answer": "RheinEnergieStadion",
+    "original_index": 1427,
+    "topic": "Music",
+    "answer_type": "Place"
+  },
+  {
+    "id": "SimpleQA-Verified/1191",
+    "domain": "simpleqa",
+    "prompt": "At which international show jumping event did Susie Hutchison and Samsung Woodstock get blocked mid-round by the ring crew?",
+    "prompt_sha256": "7ebf0694d04ab70a4ee0674fbbb697c101f3706e462a02fc135eb39bcd69896d",
+    "expected_answer": "Volvo FEI World Cup Final",
+    "original_index": 1191,
+    "topic": "Sports",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/410",
+    "domain": "simpleqa",
+    "prompt": "On what day, month, and year was Joeri Verlinden born?",
+    "prompt_sha256": "d4403802cdf1d3cb03f66a809ce9ad9db83015c4cbf3ff22cdddbe27d3d895b4",
+    "expected_answer": "22 January 1988",
+    "original_index": 410,
+    "topic": "Sports",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/254",
+    "domain": "simpleqa",
+    "prompt": "In how many games did Matija Radović appear for the Hofstra Pride during the 2017-18 season?",
+    "prompt_sha256": "41ea665e2e5576ca96a41735fbf9906a15ddc80e7a3c81181773b1b6b1ac3687",
+    "expected_answer": "25",
+    "original_index": 254,
+    "topic": "Sports",
+    "answer_type": "Number"
+  },
+  {
+    "id": "SimpleQA-Verified/1391",
+    "domain": "simpleqa",
+    "prompt": "What year was the first SoCal Sword Fight tournament held?",
+    "prompt_sha256": "29a6b40ce1d4db9512d679c9c607340454738bd9446f5cdcf7b5a19a62ff1f75",
+    "expected_answer": "2012",
+    "original_index": 1391,
+    "topic": "Sports",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/2622",
+    "domain": "simpleqa",
+    "prompt": "Who was the 2018 ACM Eugene L. Lawler Award recipient?",
+    "prompt_sha256": "7702f76d204cf3bd046d534919814f1694f87de83155bbef3c204da3cb01602e",
+    "expected_answer": "Meenakshi Balakrishnan",
+    "original_index": 2622,
+    "topic": "Science and technology",
+    "answer_type": "Person"
+  },
+  {
+    "id": "SimpleQA-Verified/2921",
+    "domain": "simpleqa",
+    "prompt": "What is the MD5 checksum of the file named \"ffrelay-debian-4.30.ggi.zip,\" with the product name \"FinFisher Relay v4.30\" and a file size of 224K, which was released by WikiLeaks?",
+    "prompt_sha256": "7aea7de03f47d6d743bd55b4d89e9fe5d040fe2f776a33a7f23a54a590fe9558",
+    "expected_answer": "180caf23dd71383921e368128fb6db52",
+    "original_index": 2921,
+    "topic": "Science and technology",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/3791",
+    "domain": "simpleqa",
+    "prompt": "In which surah of the Holy Quran are the palm trees and the olives mentioned in the 29th verse?",
+    "prompt_sha256": "3a44212a1af581456256225e31814fe36cdf78fbd4c7be7e3888fdf301bde00f",
+    "expected_answer": "Abasa 80.",
+    "original_index": 3791,
+    "topic": "Other",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/1042",
+    "domain": "simpleqa",
+    "prompt": "Who was Patricia Bullrich's first husband?",
+    "prompt_sha256": "9799213076af12c23d3d8776c3c22269d71202dde606fd27e0d3b59088282113",
+    "expected_answer": "Marcelo Langieri",
+    "original_index": 1042,
+    "topic": "Politics",
+    "answer_type": "Person"
+  },
+  {
+    "id": "SimpleQA-Verified/1739",
+    "domain": "simpleqa",
+    "prompt": "How many spectators filled the Olympic Stadium during the opening ceremony of the Helsinki Olympics in 1952?",
+    "prompt_sha256": "bfa0690e35facb572e27142719d63370f0ace94a09b40497f22345087b3b7007",
+    "expected_answer": "70,435 spectators (acceptable range: anything between 66,913 and 74,017 spectators)",
+    "original_index": 1739,
+    "topic": "Sports",
+    "answer_type": "Number"
+  },
+  {
+    "id": "SimpleQA-Verified/3086",
+    "domain": "simpleqa",
+    "prompt": "In which year did Anil Biswas (an Indian communist politician) join the Krishnagar Government College, come under the influence of Marxist leaders like Harinarayan Adhikari and Dinesh Mazumdar, and also become an active member of the Students' Federation of India?",
+    "prompt_sha256": "9509423c7a64e0d2fb4c87a8985cb2b87b81b3743df8bd88375310556381392c",
+    "expected_answer": "1961",
+    "original_index": 3086,
+    "topic": "Politics",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/3040",
+    "domain": "simpleqa",
+    "prompt": "What is the last line of \"Land of the Rising Sun,\" the national anthem of the Republic of Biafra?",
+    "prompt_sha256": "84dddcd73e33c241b1b316d48d90aeda744d7ebeb507ac96a605beff09dc2a05",
+    "expected_answer": "To make this clime a land of righteousness",
+    "original_index": 3040,
+    "topic": "Politics",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/3446",
+    "domain": "simpleqa",
+    "prompt": "Where was the body of Stuart Leary, a South African sportsman who played for Charlton Athletic Football Club in London, discovered on August 23, 1988?",
+    "prompt_sha256": "15807f198aa099848deafa470e4ecc1e2700b9b236af3aea12489cf6e4e46b34",
+    "expected_answer": "Table Mountain, South Africa",
+    "original_index": 3446,
+    "topic": "Sports",
+    "answer_type": "Place"
+  },
+  {
+    "id": "SimpleQA-Verified/3671",
+    "domain": "simpleqa",
+    "prompt": "What year was Jerry Lee Lewis's 13th album released on Mercury Records?",
+    "prompt_sha256": "24164edc4dd52f0703c33fc8b39908d4af044b792715b1e7413b63888f94e848",
+    "expected_answer": "1970",
+    "original_index": 3671,
+    "topic": "Music",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/2863",
+    "domain": "simpleqa",
+    "prompt": "The 16th North East Region Commonwealth Parliamentary Association (NERCPA) conference started in which city?",
+    "prompt_sha256": "025998a30d66df0a5b83148eae5758cab715d7a021dc04a31c18b33df5023ce3",
+    "expected_answer": "IMPHAL",
+    "original_index": 2863,
+    "topic": "Politics",
+    "answer_type": "Place"
+  },
+  {
+    "id": "SimpleQA-Verified/2793",
+    "domain": "simpleqa",
+    "prompt": "In what year did Richard Diebenkorn begin teaching at the California College of Arts and Crafts?",
+    "prompt_sha256": "22b6066e031e32d3d53bf9e2e42f1e5c185579f6f6e55b33fedfa9efa4bcb91a",
+    "expected_answer": "1955",
+    "original_index": 2793,
+    "topic": "Art",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/2934",
+    "domain": "simpleqa",
+    "prompt": "In the 2020 census, what was the population of Boliney, Abra, Philippines?",
+    "prompt_sha256": "98f5ebc411c11b06266f2594f6de8061b606d727750b1220415651a839f9fa14",
+    "expected_answer": "4551 (acceptable range: anything between 4505 and 4597)",
+    "original_index": 2934,
+    "topic": "Geography",
+    "answer_type": "Number"
+  },
+  {
+    "id": "SimpleQA-Verified/1639",
+    "domain": "simpleqa",
+    "prompt": "On 5 February 2022, in the rugby match between Romania and Russia that was part of the 2022 Rugby Europe Championship, how many tries did Romania have?",
+    "prompt_sha256": "7485c1ca43339befd6e3af039c45c5784785b03b2a4aad9ceb28b04ed075ee16",
+    "expected_answer": "4",
+    "original_index": 1639,
+    "topic": "Sports",
+    "answer_type": "Number"
+  },
+  {
+    "id": "SimpleQA-Verified/3961",
+    "domain": "simpleqa",
+    "prompt": "What year did the singer-songwriter Stella Jang become an Innisfree cosmetics model?",
+    "prompt_sha256": "8c81a751a5538a8feecaddeea01270f502e7899dc99b8bd188817808dd7583e5",
+    "expected_answer": "2021",
+    "original_index": 3961,
+    "topic": "Music",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/4261",
+    "domain": "simpleqa",
+    "prompt": "In what year did the Soweto Gospel Choir perform for Oprah Winfrey for the first time?",
+    "prompt_sha256": "50f12c4f60ba689934be8cfd826586b85449973fa1e4a17e0214c9d223e94a14",
+    "expected_answer": "2006",
+    "original_index": 4261,
+    "topic": "Music",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/337",
+    "domain": "simpleqa",
+    "prompt": "Which famous drummer opened a Wahoo's Fish Taco restaurant in Norco, California, in 2004?",
+    "prompt_sha256": "2a4905fd4d35830c1cf5cba4ab46ce92a8d7527264de0fc49bfded30d784f23a",
+    "expected_answer": "Travis Barker",
+    "original_index": 337,
+    "topic": "Music",
+    "answer_type": "Person"
+  },
+  {
+    "id": "SimpleQA-Verified/1653",
+    "domain": "simpleqa",
+    "prompt": "What is the name of the world's first solid titanium watch?",
+    "prompt_sha256": "fbb9b1cb11d4d24d3220c6c79ca8d49b07ba9f6c67602f02ff84a28119448f01",
+    "expected_answer": "Citizen X8 Titanium Chronometer",
+    "original_index": 1653,
+    "topic": "Science and technology",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/946",
+    "domain": "simpleqa",
+    "prompt": "Who set the Guinness World Record by building the largest Nerf gun, measuring 3.81 meters (12 feet 6 inches), on October 15, 2021?",
+    "prompt_sha256": "981d1c5c9d459a7929707c6d02a8145da9bb6e2f0510e04da6d08b7c8e9c5c7b",
+    "expected_answer": "Michael Pick",
+    "original_index": 946,
+    "topic": "Other",
+    "answer_type": "Person"
+  },
+  {
+    "id": "SimpleQA-Verified/1965",
+    "domain": "simpleqa",
+    "prompt": "What is the name of the political communications firm where New York State Representative Mike Lawler was a partner from 2018 to 2022?",
+    "prompt_sha256": "3ecd894be6c87061922d2f22c24060fe128faa250c644f82df04d1eff9581a05",
+    "expected_answer": "Checkmate Strategies",
+    "original_index": 1965,
+    "topic": "Politics",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/608",
+    "domain": "simpleqa",
+    "prompt": "What was Jeffrey Epstein's released bond in dollars on July 27, 2006, at the Palm Beach County jail?",
+    "prompt_sha256": "36d9defe62cee51f2a1464d70e1bc21d76e43dd3b78e3fcd581195ac26930641",
+    "expected_answer": "$3,000 bond",
+    "original_index": 608,
+    "topic": "Politics",
+    "answer_type": "Number"
+  },
+  {
+    "id": "SimpleQA-Verified/4232",
+    "domain": "simpleqa",
+    "prompt": "Which former governor is tied with Jim Hunt for the sixth-longest gubernatorial tenure in post-Constitutional U.S. history at 5,838 days?",
+    "prompt_sha256": "178d5b1edb28d19186d1d060a525486c264c5bd7f21581f7a726f2f1d117ae83",
+    "expected_answer": "Jim Rhodes",
+    "original_index": 4232,
+    "topic": "Politics",
+    "answer_type": "Person"
+  },
+  {
+    "id": "SimpleQA-Verified/598",
+    "domain": "simpleqa",
+    "prompt": "In which month and year did Jose Maria Canlas Sison marry his wife, Julie de Lima, in a Catholic church?",
+    "prompt_sha256": "b419cb8df883e0db276b4225dfc02601061ab4e47fdcfa26b1435a4182391ff1",
+    "expected_answer": "January 1960",
+    "original_index": 598,
+    "topic": "Politics",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/3531",
+    "domain": "simpleqa",
+    "prompt": "Which Prime Minister of Italy was named 'Iron Baron'?",
+    "prompt_sha256": "7e04b11ddff640d290c713678c66e10e753e099d9a1f106804b608612e8e7eaf",
+    "expected_answer": "Bettino Ricasoli",
+    "original_index": 3531,
+    "topic": "Politics",
+    "answer_type": "Person"
+  },
+  {
+    "id": "SimpleQA-Verified/1937",
+    "domain": "simpleqa",
+    "prompt": "In what city did Rachel Carson and Dorothy Freeman first meet in 1953?",
+    "prompt_sha256": "a55fadf162e4139614adee7e5d4590466a9fc86ef9da9b30866346ec6eed2138",
+    "expected_answer": "Southport Island",
+    "original_index": 1937,
+    "topic": "Other",
+    "answer_type": "Place"
+  },
+  {
+    "id": "SimpleQA-Verified/4032",
+    "domain": "simpleqa",
+    "prompt": "On what date, month, and year was Babar Awan suspended by the PPP, leading to the eventual dismissal of Zulfiqar Ali Bhutto's murder case following a series of hearings at the Supreme Court?",
+    "prompt_sha256": "1dd789f3b8117c212b095e0463e9c8600d50527bf8ab6fa48f9d3ddf5887873c",
+    "expected_answer": "2 May 2012",
+    "original_index": 4032,
+    "topic": "Politics",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/161",
+    "domain": "simpleqa",
+    "prompt": "Who was the first person to be an American diplomatic minister to Romania and Serbia?",
+    "prompt_sha256": "b91a0ac7dc9b54d04bb19178d2ac091fb4a01e2c05b73026d3005ebd59b9a3e8",
+    "expected_answer": "Eugene Schuyler",
+    "original_index": 161,
+    "topic": "Politics",
+    "answer_type": "Person"
+  },
+  {
+    "id": "SimpleQA-Verified/3883",
+    "domain": "simpleqa",
+    "prompt": "When was Gavi shown a yellow card in the La Liga match between Valencia CF and FC Barcelona that happened on October 29, 2022?",
+    "prompt_sha256": "ef6eb4f83e3e4b853bf7fdb2c64cac41e29e8594545fee69b97c5619264d2990",
+    "expected_answer": "89 minutes (acceptable range: anything between 88 and 90 minutes)",
+    "original_index": 3883,
+    "topic": "Sports",
+    "answer_type": "Number"
+  },
+  {
+    "id": "SimpleQA-Verified/2662",
+    "domain": "simpleqa",
+    "prompt": "What is the maximum width of Gangabal Lake in kilometers?",
+    "prompt_sha256": "309e8b9f6f4fd68f38851afc2398243faa2974c4ba2ade96cde404811c4b0c2d",
+    "expected_answer": "1 km",
+    "original_index": 2662,
+    "topic": "Geography",
+    "answer_type": "Number"
+  },
+  {
+    "id": "SimpleQA-Verified/1782",
+    "domain": "simpleqa",
+    "prompt": "What was the number of recorded fatalities in the Weesp train disaster of 1918 in the Netherlands?",
+    "prompt_sha256": "df6755f1c25ed79d72a7b7965deaf4d072c171637998a34650d8306da1d53d43",
+    "expected_answer": "41",
+    "original_index": 1782,
+    "topic": "History",
+    "answer_type": "Number"
+  },
+  {
+    "id": "SimpleQA-Verified/855",
+    "domain": "simpleqa",
+    "prompt": "What was the name of the location where the stone came from to replace the 199 wooden steps at Whitby Abbey in 1774?",
+    "prompt_sha256": "23cb8d30313d59bf007ae9a753c10501634babef329130e1e96106e7bffd6ce4",
+    "expected_answer": "Sneaton",
+    "original_index": 855,
+    "topic": "History",
+    "answer_type": "Place"
+  },
+  {
+    "id": "SimpleQA-Verified/1108",
+    "domain": "simpleqa",
+    "prompt": "What was Granat, an X- and gamma-ray astronomical observatory studying high-energy emissions from galactic and extragalactic sources, originally called?",
+    "prompt_sha256": "9d15d943571561cc37a47952ec83f8a8ccc08f2132db0c320338d8bcd9e3b3a3",
+    "expected_answer": "Astron 2",
+    "original_index": 1108,
+    "topic": "Science and technology",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/969",
+    "domain": "simpleqa",
+    "prompt": "Which month and year was William Harrison Standley appointed as the American Ambassador to the USSR?",
+    "prompt_sha256": "d07f055f9ba73b0c180a647fd2018e36f1627d2e1f189e2a615d5e3b8f2c4de6",
+    "expected_answer": "February 1942",
+    "original_index": 969,
+    "topic": "Politics",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/2693",
+    "domain": "simpleqa",
+    "prompt": "On what day, month, and year did Olton Willem van Genderen, a Surinamese civil servant and politician, die?",
+    "prompt_sha256": "7e66dc576c388adba80f34da03b6d132b7d4e0ce03c229cf1eb200b33636844e",
+    "expected_answer": "November 9, 1990",
+    "original_index": 2693,
+    "topic": "Politics",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/217",
+    "domain": "simpleqa",
+    "prompt": "After the War of 1812, Edward William McBride (1791-1834) worked as what for the king's printer, John Cameron, on the York Gazette until April 1815?",
+    "prompt_sha256": "08698c56e8e7429323e4f6c28660e41423b2025639601f00dd9311a81b75675a",
+    "expected_answer": "Assistant",
+    "original_index": 217,
+    "topic": "History",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/2726",
+    "domain": "simpleqa",
+    "prompt": "In 2022, on which date and month was the news channel 'World Is One News' (WION) blocked from YouTube for \"violating YouTube's community guidelines\" regarding the \"Russia-Ukraine War\"?",
+    "prompt_sha256": "976d8a3c299386c1b26bf2550349a57d22ca083110806810d69fd157582c1da8",
+    "expected_answer": "22 March",
+    "original_index": 2726,
+    "topic": "Politics",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/3306",
+    "domain": "simpleqa",
+    "prompt": "What is Kinoko Teikoku's first EP?",
+    "prompt_sha256": "ac94b7a0b4f3a8277dd5b3204c34eed01b3f62ddfd88d7b7df3acd9de65ef6a6",
+    "expected_answer": "Long Good Bye",
+    "original_index": 3306,
+    "topic": "Music",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/2542",
+    "domain": "simpleqa",
+    "prompt": "What was the name of the younger brother of Mukul Chandra Dey who was a member of the Progressive Artists' Group and a prominent painter of the Bengal School of Art?",
+    "prompt_sha256": "2527019089d1eb96e47fcf4711e1be94f9e928aaaa9eab82eea397de9377da3d",
+    "expected_answer": "Manishi Dey",
+    "original_index": 2542,
+    "topic": "Art",
+    "answer_type": "Person"
+  },
+  {
+    "id": "SimpleQA-Verified/1063",
+    "domain": "simpleqa",
+    "prompt": "Which major American political party was the first to have a keynote speech delivered by a woman at its national convention?",
+    "prompt_sha256": "a9cb35df61f4f07c1a11522b1fb64c6ae510c0903f98d98ac4f322757901bdf5",
+    "expected_answer": "Republican Party",
+    "original_index": 1063,
+    "topic": "Politics",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/3144",
+    "domain": "simpleqa",
+    "prompt": "What was the name of Andrew Dickson White's cousin who became an artist of the Luminism style and Hudson River School?",
+    "prompt_sha256": "bd51dc49d811eb05b5ea12412f637970052fecdbd8c6b5c1960d883727d825db",
+    "expected_answer": "Edwin White",
+    "original_index": 3144,
+    "topic": "Art",
+    "answer_type": "Person"
+  },
+  {
+    "id": "SimpleQA-Verified/3188",
+    "domain": "simpleqa",
+    "prompt": "Who was the first president of the Supreme Court of Brazil appointed by Pedro I?",
+    "prompt_sha256": "8db5a38c66091ed311f9a893dc1481452789ef354415b2a9b4582abcfa471094",
+    "expected_answer": "Jose Albano Fragosa",
+    "original_index": 3188,
+    "topic": "Politics",
+    "answer_type": "Person"
+  },
+  {
+    "id": "SimpleQA-Verified/4265",
+    "domain": "simpleqa",
+    "prompt": "What is the title of the song after which Lady Annabel Goldsmith, the famous English socialite, was named?",
+    "prompt_sha256": "cf12d219a40f52d4b5bcd36a014e87411bd19261fde476527f999563b3ad1aa9",
+    "expected_answer": "\"Miss Annabel Lee\"",
+    "original_index": 4265,
+    "topic": "Music",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/706",
+    "domain": "simpleqa",
+    "prompt": "From what university did Bill Brown (professor at the University of Chicago and critical theorist) receive his B.A.?",
+    "prompt_sha256": "164fa855d3c06f3dcaa71cf512740e3beb36112216e3fa576ee90143aebdf7bf",
+    "expected_answer": "Duke University",
+    "original_index": 706,
+    "topic": "Other",
+    "answer_type": "Place"
+  },
+  {
+    "id": "SimpleQA-Verified/3229",
+    "domain": "simpleqa",
+    "prompt": "What was the name of the Venezuelan state in which María Teresa Castillo was born in 1908?",
+    "prompt_sha256": "93baa79cde3a7708b67217d4eb2c186dea354db1af3cbcd2a8652c1dd488cbfd",
+    "expected_answer": "Miranda.",
+    "original_index": 3229,
+    "topic": "Geography",
+    "answer_type": "Place"
+  },
+  {
+    "id": "SimpleQA-Verified/2044",
+    "domain": "simpleqa",
+    "prompt": "In which year was a number of procumbent pearlwort (Sagina procumbens) plants first found on Gough Island in the South Atlantic Ocean, capable of dramatically transforming the upland plant ecosystem?",
+    "prompt_sha256": "064a90c016f014e3f728e557a31c55940cc9a4773bd05a3eb9d049f8ed467f98",
+    "expected_answer": "1998",
+    "original_index": 2044,
+    "topic": "Geography",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/537",
+    "domain": "simpleqa",
+    "prompt": "The Arvida Theatre, built in 1927 in Saguenay, Québec, was built according to the plans of which architect?",
+    "prompt_sha256": "24543518a6794c790750cdd2111c5b88778e7f413ec0ecf889b00bff178e90cf",
+    "expected_answer": "Alfred Lamontagne",
+    "original_index": 537,
+    "topic": "Art",
+    "answer_type": "Person"
+  },
+  {
+    "id": "SimpleQA-Verified/2832",
+    "domain": "simpleqa",
+    "prompt": "In what year did Willis H. Flygare win the Irving Langmuir Award?",
+    "prompt_sha256": "826d4b1abba27bfbd00991db37d18ce10e831dfbfb1af441def7be5e63ea2dc9",
+    "expected_answer": "1981",
+    "original_index": 2832,
+    "topic": "Science and technology",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/2705",
+    "domain": "simpleqa",
+    "prompt": "Which of Smith Wigglesworth's grandchildren became the president of Elim Pentecostal Church?",
+    "prompt_sha256": "6f6ed79a4b532ddc7443930bb398035d59214db9767221c6699959243d3f6c0b",
+    "expected_answer": "Leslie Wigglesworth",
+    "original_index": 2705,
+    "topic": "Other",
+    "answer_type": "Person"
+  },
+  {
+    "id": "SimpleQA-Verified/2326",
+    "domain": "simpleqa",
+    "prompt": "At what age did Princess Bathildis of Anhalt-Dessau die?",
+    "prompt_sha256": "1618f77bf620494d3419c4dfbc02cb6c8d173ea9f084d37619ca992b008065b5",
+    "expected_answer": "64",
+    "original_index": 2326,
+    "topic": "History",
+    "answer_type": "Number"
+  },
+  {
+    "id": "SimpleQA-Verified/1984",
+    "domain": "simpleqa",
+    "prompt": "Which Ivy League university granted psychologist Robert Rutherford Holt both a master's degree and a Ph.D.?",
+    "prompt_sha256": "3074920bfb3a3cb60c6ad0e168c0fadaf35384e762b55d951226c22de861f33d",
+    "expected_answer": "Harvard",
+    "original_index": 1984,
+    "topic": "Other",
+    "answer_type": "Place"
+  },
+  {
+    "id": "SimpleQA-Verified/3548",
+    "domain": "simpleqa",
+    "prompt": "How many horses are depicted on Munch's \"Horse Team and a St. Bernhard in the Snow\" (1923)?",
+    "prompt_sha256": "b5c608e53fed0087b9038342ccc6c6a939f1bd979510fb2037ad7bfb9d17e690",
+    "expected_answer": "2",
+    "original_index": 3548,
+    "topic": "Art",
+    "answer_type": "Number"
+  },
+  {
+    "id": "SimpleQA-Verified/834",
+    "domain": "simpleqa",
+    "prompt": "What was Darnell's occupation before he was a mechanic in the series \"Girlfriends\"?",
+    "prompt_sha256": "64fecc16541f92ed52c284d351debd22e6efa7bd2187fff374063f1e713e0a34",
+    "expected_answer": "airport baggage handler",
+    "original_index": 834,
+    "topic": "TV shows",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/1112",
+    "domain": "simpleqa",
+    "prompt": "On what day, month, and year did Kim Tae-young, a South Korean professional footballer, score the K-League's historic 10,000th goal against his own net?",
+    "prompt_sha256": "6f0ef2314f70776b741f12cd0ea15f262310c1f46b28c178042b62dc3d5871fa",
+    "expected_answer": "09 November 2008",
+    "original_index": 1112,
+    "topic": "Sports",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/1081",
+    "domain": "simpleqa",
+    "prompt": "What was the halftime score between Liverpool and Leicester in the game from December 30, 2022?",
+    "prompt_sha256": "dd2f0e8c60dc36ac2074d4db267aba0ef3d7e573a130964dc23f1eb3f6f59c66",
+    "expected_answer": "Liverpool 2 - 1 Leicester",
+    "original_index": 1081,
+    "topic": "Sports",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/752",
+    "domain": "simpleqa",
+    "prompt": "What is the name of the 11th song on \"The Last Unicorn\" soundtrack album?",
+    "prompt_sha256": "4a1b6e703938e167d0713a835c53788e2a8150b137119709ebe2688c36788222",
+    "expected_answer": "The Tree",
+    "original_index": 752,
+    "topic": "Music",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/1389",
+    "domain": "simpleqa",
+    "prompt": "What is the name of Nepal's first technical university established as part of a 2010 government bill?",
+    "prompt_sha256": "1ab9c15a371385063f0b3b9dbda1668501f0d6c09f9586a045366b9db20c7903",
+    "expected_answer": "Agriculture and Forestry University",
+    "original_index": 1389,
+    "topic": "Geography",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/1626",
+    "domain": "simpleqa",
+    "prompt": "Which high school did the former Archbishop of Cape Town, Njongonkulu Winston Hugh Ndungane, attend when he completed his schooling in December 1958?",
+    "prompt_sha256": "1d6ca3cd5c2ec971f2069d6a91cfa0cdfc25a2539783aa7701910126bb0a3017",
+    "expected_answer": "Lovedale High School",
+    "original_index": 1626,
+    "topic": "Politics",
+    "answer_type": "Place"
+  },
+  {
+    "id": "SimpleQA-Verified/2523",
+    "domain": "simpleqa",
+    "prompt": "What is the number of months that Kingda Ka was closed after being struck by lightning in 2009?",
+    "prompt_sha256": "d6e83c6befa3222905918bb5cca61aa2100fbd5bcfa8db82a74e95308d1c4ec9",
+    "expected_answer": "3",
+    "original_index": 2523,
+    "topic": "Other",
+    "answer_type": "Number"
+  },
+  {
+    "id": "SimpleQA-Verified/2856",
+    "domain": "simpleqa",
+    "prompt": "In what year was Edward Morris, the Welsh international footballer, born?",
+    "prompt_sha256": "eebd823e03c36f11cb5aa7770aefdb4d2371020deefd936808abe1d60531ed1d",
+    "expected_answer": "1872",
+    "original_index": 2856,
+    "topic": "Sports",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/4080",
+    "domain": "simpleqa",
+    "prompt": "In which city of Jammu division is KK Birla Garden located?",
+    "prompt_sha256": "d62533c0ca91cd7ea297bb8c87aec2c78ca59895ecd13cafb745d5cda3d92e87",
+    "expected_answer": "Kathua",
+    "original_index": 4080,
+    "topic": "Geography",
+    "answer_type": "Place"
+  },
+  {
+    "id": "SimpleQA-Verified/3980",
+    "domain": "simpleqa",
+    "prompt": "What year did Yohji Yamamoto's mother sell her dressmaking shop?",
+    "prompt_sha256": "af8aaa4d8870e5f4f84c0079ceb8e43d4b84dd6a3a3b218ce509da2554460eaf",
+    "expected_answer": "1972",
+    "original_index": 3980,
+    "topic": "Art",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/2447",
+    "domain": "simpleqa",
+    "prompt": "What is the name of the man who became the third Black man to serve as a Portland city commissioner in Oregon?",
+    "prompt_sha256": "ea08ca0ae121796f8742049fad010ea2caf1fa60139efa2f419702bc33c36e8b",
+    "expected_answer": "Mingus Ulysses Mapps",
+    "original_index": 2447,
+    "topic": "Politics",
+    "answer_type": "Person"
+  },
+  {
+    "id": "SimpleQA-Verified/2831",
+    "domain": "simpleqa",
+    "prompt": "In which year did The MOI! Project (Museums of Impact), a part of the Creative Europe program, finish?",
+    "prompt_sha256": "30a555dd681a9f5eef3d723bb4d69a718c86636dbd1c1612cab9162a58966c98",
+    "expected_answer": "2022",
+    "original_index": 2831,
+    "topic": "Art",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/2757",
+    "domain": "simpleqa",
+    "prompt": "From which university did Teresa Czerwińska earn her Ph.D.?",
+    "prompt_sha256": "f4c5bc807aa84c8f718d5966cc8d514506a6e40c66402d197fa40712614ef8c3",
+    "expected_answer": "University of Gdańsk",
+    "original_index": 2757,
+    "topic": "Politics",
+    "answer_type": "Place"
+  },
+  {
+    "id": "SimpleQA-Verified/1744",
+    "domain": "simpleqa",
+    "prompt": "In which year did Sayed Haider Raza's (an Indian painter) mother die?",
+    "prompt_sha256": "1aa65f8f23de1ceb27229f999c3ff8d1afdd19aec474459d9e7125789e948509",
+    "expected_answer": "1947",
+    "original_index": 1744,
+    "topic": "Art",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/2218",
+    "domain": "simpleqa",
+    "prompt": "What year was the bronze loincloth added to Michelangelo's \"Risen Christ\" sculpture to cover the genitals?",
+    "prompt_sha256": "507918567e819440ee1c059435fe3022fc952f4b0a21b802602e8821b931793b",
+    "expected_answer": "1546",
+    "original_index": 2218,
+    "topic": "Art",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/1648",
+    "domain": "simpleqa",
+    "prompt": "The statue of Efraín González Luna is installed in which Mexican state?",
+    "prompt_sha256": "184af6418fe6c5e636a923c6d60ce7c044bf4a9482a2a04136dab13eb9c4afc9",
+    "expected_answer": "Jalisco",
+    "original_index": 1648,
+    "topic": "Geography",
+    "answer_type": "Place"
+  },
+  {
+    "id": "SimpleQA-Verified/2918",
+    "domain": "simpleqa",
+    "prompt": "In what year was chemist Eduard Buchner promoted from assistant lecturer to lecturer at the University of Munich?",
+    "prompt_sha256": "84a35421b2cebd34b4fdda8d01c097967b37d9c6fb190c010bfb7cb1e46acc27",
+    "expected_answer": "1891",
+    "original_index": 2918,
+    "topic": "Science and technology",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/3150",
+    "domain": "simpleqa",
+    "prompt": "Who was the second president of the International Society for Soil Mechanics and Geotechnical Engineering?",
+    "prompt_sha256": "815ff518fefbf3ca18dee2722e6d25634f2a0356af711fe66a02283aa941755c",
+    "expected_answer": "A. W. Skempton",
+    "original_index": 3150,
+    "topic": "Science and technology",
+    "answer_type": "Person"
+  },
+  {
+    "id": "SimpleQA-Verified/3023",
+    "domain": "simpleqa",
+    "prompt": "What album is the song \"God Is Alive, Magic Is Afoot\" by Chris Thile on?",
+    "prompt_sha256": "da6742cd6f48e2d3343a5818046a1451d6cf66cc7d8734d1f33437f2c682101c",
+    "expected_answer": "Laysongs",
+    "original_index": 3023,
+    "topic": "Music",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/1070",
+    "domain": "simpleqa",
+    "prompt": "What is the initial name of the political party that Emmanuel Macron founded?",
+    "prompt_sha256": "9d7286985a26c4ee2c1e1a3356b2deae6f41fe2d4246ac34be309c3e4ccac196",
+    "expected_answer": "En Marche!",
+    "original_index": 1070,
+    "topic": "Politics",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/2137",
+    "domain": "simpleqa",
+    "prompt": "In which year did Ratan Parimoo (an Indian art historian from Kashmir) win the Gaurav Puraskar, Gujarat State Lalit Kala Akademi?",
+    "prompt_sha256": "2105837a62c525939ae8fd91ef08a08beacadcf89deba63e8087dd600afc45a2",
+    "expected_answer": "2000",
+    "original_index": 2137,
+    "topic": "Art",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/3716",
+    "domain": "simpleqa",
+    "prompt": "What was the prize money, in British pounds, awarded to the loser of the chess match featuring Wilhelm Steinitz and Adolf Anderssen in 1866?",
+    "prompt_sha256": "817830cc065cf15a4bd6abdb1e4a4e5c63bd7a2d355c997a680f17f9463f3e82",
+    "expected_answer": "£20",
+    "original_index": 3716,
+    "topic": "Sports",
+    "answer_type": "Number"
+  },
+  {
+    "id": "SimpleQA-Verified/15",
+    "domain": "simpleqa",
+    "prompt": "What signature piece of the MOBA did Scott Wilson discover on the curb between two trash cans?",
+    "prompt_sha256": "4bddc5ea7beead3483dceab7ce9b722e1d309d9bcad21af4c25da661ca20476e",
+    "expected_answer": "Lucy in the Field with Flowers",
+    "original_index": 15,
+    "topic": "Art",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/36",
+    "domain": "simpleqa",
+    "prompt": "In which month and year did Khusro Bakhtiar (former Federal Minister for Planning, Development, and Reforms, Pakistan) announce that the government was considering establishing a Pak-China business council to promote the private sector's role in the China-Pakistan Economic Corridor (CPEC)?",
+    "prompt_sha256": "26c3d260ee5a479f032ac0d9ead52a49ce695c514191779760ac07833abb82c8",
+    "expected_answer": "June 2019",
+    "original_index": 36,
+    "topic": "Politics",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/3369",
+    "domain": "simpleqa",
+    "prompt": "What day, month, and year was the EP \"Dirty Laundry\" released by Adore Delano?",
+    "prompt_sha256": "2a5a6560476feac10a50cbe547344c29867ec0c7528a500e33002ee0c192139a",
+    "expected_answer": "July 9, 2021",
+    "original_index": 3369,
+    "topic": "Music",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/4118",
+    "domain": "simpleqa",
+    "prompt": "What was the name of the company that sponsored BraviSEAmo! at Tokyo DisneySea from 2004 to 2010?",
+    "prompt_sha256": "35a6c0d7cbfc062cf2878080d34db4af979c2e70af9b30fa6111461f2bad4c82",
+    "expected_answer": "NTT DoCoMo",
+    "original_index": 4118,
+    "topic": "Other",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/2586",
+    "domain": "simpleqa",
+    "prompt": "What was the name of Helmut Lang's solo exhibition in New York in 2017?",
+    "prompt_sha256": "e9eab7eb651efc012c72f8387dc93df0836964c5c25d65da0c4950b7ed4a1c66",
+    "expected_answer": "Helmut Lang: new work",
+    "original_index": 2586,
+    "topic": "Art",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/1780",
+    "domain": "simpleqa",
+    "prompt": "Who did the boxer Jackson Asiku lose to at the Summer Olympics in Sydney, Australia in 2000?",
+    "prompt_sha256": "d32d81487c27ea11c4ba11a16acf19dc247f319078362883deea3e73b5a517f3",
+    "expected_answer": "Arlan Lerio",
+    "original_index": 1780,
+    "topic": "Sports",
+    "answer_type": "Person"
+  },
+  {
+    "id": "SimpleQA-Verified/1258",
+    "domain": "simpleqa",
+    "prompt": "How many votes did Alisher Usmanov receive when he won the 2008 election for President of the Fédération Internationale d'Escrime?",
+    "prompt_sha256": "3c63706767244b4ca0efd204a072191f9cd1dd0cabfdbc27c3046ecdc907a0fc",
+    "expected_answer": "66 votes",
+    "original_index": 1258,
+    "topic": "Sports",
+    "answer_type": "Number"
+  },
+  {
+    "id": "SimpleQA-Verified/1718",
+    "domain": "simpleqa",
+    "prompt": "What is the surname of the person who first discovered the blood-sucking bug Triatoma carrioni?",
+    "prompt_sha256": "92ee7df3d2b2db04acdc22094e799b4f65e9a80b2c087a13de96ada57ebbd016",
+    "expected_answer": "Larrousse",
+    "original_index": 1718,
+    "topic": "Science and technology",
+    "answer_type": "Person"
+  },
+  {
+    "id": "SimpleQA-Verified/1335",
+    "domain": "simpleqa",
+    "prompt": "What is the second song on Side Two of the album Rewind by Johnny Rivers?",
+    "prompt_sha256": "7538e489ed1007effc169e23aaac2f10704f538d3cb8f9945062839b50749ff1",
+    "expected_answer": "\"For Emily, Whenever I May Find Her\"",
+    "original_index": 1335,
+    "topic": "Music",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/2551",
+    "domain": "simpleqa",
+    "prompt": "According to the last population update in 2010, the rural locality of Taz Russky in the Klyapovskoye Rural Settlement of Russia has a population of what?",
+    "prompt_sha256": "64565c8df7489eea8fcadb1bcd550069f5fa6de466d9b4918c78662ac4b9d4aa",
+    "expected_answer": "175 (acceptable range: anything between 173 and 177)",
+    "original_index": 2551,
+    "topic": "Geography",
+    "answer_type": "Number"
+  },
+  {
+    "id": "SimpleQA-Verified/3584",
+    "domain": "simpleqa",
+    "prompt": "What day, month, and year did over 500,000 people gather at the Black Star Square in Ghana to welcome former U.S. President Bill Clinton and his wife, Hillary Clinton?",
+    "prompt_sha256": "6008ba7d0642bbbfe0ab4d29a78bd0522bf52f230b16b43b5229501e44e15379",
+    "expected_answer": "23 March 1998",
+    "original_index": 3584,
+    "topic": "Politics",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/1750",
+    "domain": "simpleqa",
+    "prompt": "Who was the first Tunisian president to be elected by universal suffrage after the 2011 revolution?",
+    "prompt_sha256": "faa52a81c50c6bb17399d2a5f7d5f4da59f413baee5d7db0e80fb1cfd76ec83b",
+    "expected_answer": "Beji Caid Essebsi",
+    "original_index": 1750,
+    "topic": "Politics",
+    "answer_type": "Person"
+  },
+  {
+    "id": "SimpleQA-Verified/1060",
+    "domain": "simpleqa",
+    "prompt": "What was the strike rate of Manish Pandey in the 2019 IPL match between KKR and SRH on March 24, 2019?",
+    "prompt_sha256": "42e4ffa2998d4bc52d1ba9062698a0ba18fbbf790f7f8182d7c1fd6a424804bf",
+    "expected_answer": "160 (acceptable range: anything between 158 and 162)",
+    "original_index": 1060,
+    "topic": "Sports",
+    "answer_type": "Number"
+  },
+  {
+    "id": "SimpleQA-Verified/619",
+    "domain": "simpleqa",
+    "prompt": "What is the second-largest island in the world?",
+    "prompt_sha256": "15b89033a09d73d3a0f0812fd37591c2338cc51a7ca86f91750adee251f79d45",
+    "expected_answer": "New Guinea",
+    "original_index": 619,
+    "topic": "Geography",
+    "answer_type": "Place"
+  },
+  {
+    "id": "SimpleQA-Verified/3193",
+    "domain": "simpleqa",
+    "prompt": "According to the 2011 census of India, after Hindi, which is the second fastest growing language of India, followed by Meitei (Manipuri) in third place and Bengali in fourth place?",
+    "prompt_sha256": "eb7dd66b575e746e2f7f841b92218f28d62a30b67d2d11dbc8cb7565ec79fda2",
+    "expected_answer": "Kashmiri",
+    "original_index": 3193,
+    "topic": "Geography",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/527",
+    "domain": "simpleqa",
+    "prompt": "What town in the Southwest region of Western Australia, located 212 kilometers south of Perth and midway between Bunbury and Busselt, was originally inhabited by the Wardandi Noongar people?",
+    "prompt_sha256": "27dfd75a15a1b8b546d6ef7d84b7f8667629f4300dc39fbdcef5d64e4a75b3d0",
+    "expected_answer": "Capel",
+    "original_index": 527,
+    "topic": "Geography",
+    "answer_type": "Place"
+  },
+  {
+    "id": "SimpleQA-Verified/1671",
+    "domain": "simpleqa",
+    "prompt": "What was the final score between Olga Kharlan and Kim Ji-yeon at the 2013 World Championships?",
+    "prompt_sha256": "b64ba8f8f01a388cf3a9a2eb5cf53fc62abcfa3d3f5057e3de3238bebda463d6",
+    "expected_answer": "Olga Kharlan - Kim Ji-yeon: 15–14",
+    "original_index": 1671,
+    "topic": "Sports",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/1013",
+    "domain": "simpleqa",
+    "prompt": "How many children did Swiss painter Johann Caspar Füssli have with his wife, Elisabeth?",
+    "prompt_sha256": "a80a15fd6e0cc5f6460552812a1ac54f1b094800416337b1909c70a94bdcbd66",
+    "expected_answer": "18",
+    "original_index": 1013,
+    "topic": "Art",
+    "answer_type": "Number"
+  },
+  {
+    "id": "SimpleQA-Verified/2045",
+    "domain": "simpleqa",
+    "prompt": "From the span of 1948 to 1962, how many times in total did Patty Berg win the Vare Trophy?",
+    "prompt_sha256": "1c5677ceaf24694734dae969974b01d3edb7dccb137b44fe58fa85de8841471c",
+    "expected_answer": "3",
+    "original_index": 2045,
+    "topic": "Sports",
+    "answer_type": "Number"
+  },
+  {
+    "id": "SimpleQA-Verified/2878",
+    "domain": "simpleqa",
+    "prompt": "According to \"A Survey of London; Reprinted From the Text of 1603,\" in 1206, 1220, 1224, and 1243, Crown pleas were heard in the Tower of London, with William of York, Richard Passelew, Henry Bathe, and which other justice presiding?",
+    "prompt_sha256": "68b7aea457833a008e6c8396b99c7c63ba5682674831f17a2f1805e487926d14",
+    "expected_answer": "Jerome of Saxton.",
+    "original_index": 2878,
+    "topic": "History",
+    "answer_type": "Person"
+  },
+  {
+    "id": "SimpleQA-Verified/3655",
+    "domain": "simpleqa",
+    "prompt": "At which university did the 24th Chief Justice of India, Lalit Mohan Sharma, study B.A. Hons.?",
+    "prompt_sha256": "47353def142d31dd78d929039b9b17f3f699b0fc6990d46903516a4491b9311c",
+    "expected_answer": "Patna University",
+    "original_index": 3655,
+    "topic": "Politics",
+    "answer_type": "Place"
+  },
+  {
+    "id": "SimpleQA-Verified/2035",
+    "domain": "simpleqa",
+    "prompt": "In what month and year did Ronnie Milsap first move to Nashville?",
+    "prompt_sha256": "ab4d577803a26eb58e8ed18b46f6161089134da96e52abd844b2aebcf3b4b89d",
+    "expected_answer": "December 1972",
+    "original_index": 2035,
+    "topic": "Music",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/803",
+    "domain": "simpleqa",
+    "prompt": "Which art dealership did Peter Arrell Browne Widener buy \"Portrait of Elena Grimaldi Cattaneo\" from in 1906?",
+    "prompt_sha256": "1ed490cf758f675324125af886c00fc246c153de97b07d5f4aa65752c7515187",
+    "expected_answer": "Knoedler",
+    "original_index": 803,
+    "topic": "Art",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/1146",
+    "domain": "simpleqa",
+    "prompt": "What was the name of India's first-ever cricket team formed by the Parsi community in Mumbai?",
+    "prompt_sha256": "e0459fb95b5893c9b47b38b5ce9e6ece30dd79658ff3dec04a6f5f2bd46b73d2",
+    "expected_answer": "Oriental Cricket Club",
+    "original_index": 1146,
+    "topic": "Sports",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/3437",
+    "domain": "simpleqa",
+    "prompt": "In 1981, in what Broadway musical did Janet Hubert make her debut?",
+    "prompt_sha256": "865a377e8a319f5a916604532b4543c931096b56594980b8742371e0c0ae41f8",
+    "expected_answer": "\"The First\"",
+    "original_index": 3437,
+    "topic": "Art",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/5",
+    "domain": "simpleqa",
+    "prompt": "How much money, in euros, was the surgeon held responsible for Stella Obasanjo's death ordered to pay her son?",
+    "prompt_sha256": "78199b573492fe77132fd6ad091d6e754bea5ce4333c271019b22efacace7265",
+    "expected_answer": "120,000 euros",
+    "original_index": 5,
+    "topic": "Politics",
+    "answer_type": "Number"
+  },
+  {
+    "id": "SimpleQA-Verified/3515",
+    "domain": "simpleqa",
+    "prompt": "What did George Brown (1818-1880) refuse in 1875?",
+    "prompt_sha256": "56172cf56323fb17c625d34785c1dc766a68a63544e3c0b18bb12f46349b8fb3",
+    "expected_answer": "The lieutenant governorship of Ontario",
+    "original_index": 3515,
+    "topic": "Politics",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/1502",
+    "domain": "simpleqa",
+    "prompt": "In which year did Dina Nath Walli (an Indian watercolor artist and poet from Srinagar city) return to Srinagar, where he concentrated on landscape painting in watercolors?",
+    "prompt_sha256": "61f7f5d9aac1de452ae11e0f0d47deb2f29eb3b4388f3a6e9b33f8a22f55695d",
+    "expected_answer": "1936",
+    "original_index": 1502,
+    "topic": "Art",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/299",
+    "domain": "simpleqa",
+    "prompt": "Which specific ocean was the asteroid 224 Oceana named after?",
+    "prompt_sha256": "f27554db498e5d33f3e10d7204cd7ddfa86476ddfbc6b20cf8f35ec0600bbfb2",
+    "expected_answer": "Pacific Ocean",
+    "original_index": 299,
+    "topic": "Geography",
+    "answer_type": "Place"
+  },
+  {
+    "id": "SimpleQA-Verified/1274",
+    "domain": "simpleqa",
+    "prompt": "On what date, month, and year was Patricio Echegaray, an Argentine politician born in San José de Jáchal, born?",
+    "prompt_sha256": "e3b480801cc0b37c276d1b31adb6794ce109438dd4070dd99c2d5ad82cb6e005",
+    "expected_answer": "October 17, 1946",
+    "original_index": 1274,
+    "topic": "Politics",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/2026",
+    "domain": "simpleqa",
+    "prompt": "What was the first-generation, four-speed manual transmission gearbox type of the Mazda R360 officially called in Japan?",
+    "prompt_sha256": "2fdfb4cc8b939b99fda9609b1c0e84dac663fadd1644ac5616ee9bb0a0ad7bf0",
+    "expected_answer": "KRBB",
+    "original_index": 2026,
+    "topic": "Science and technology",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/1491",
+    "domain": "simpleqa",
+    "prompt": "How many children did Hank Williams have?",
+    "prompt_sha256": "22ea8e64a9f5e7f1deca2a4caf54cb5a3c366b16fbe7c919fa6b680e634c692b",
+    "expected_answer": "2",
+    "original_index": 1491,
+    "topic": "Music",
+    "answer_type": "Number"
+  },
+  {
+    "id": "SimpleQA-Verified/2385",
+    "domain": "simpleqa",
+    "prompt": "On what day, month, and year did Bruno Kreisky (an Austrian social democratic politician) marry Vera Fürth?",
+    "prompt_sha256": "c69f10a17f1c951a1aee22d2bc149a68bd6d5ddc037fecdc9e3e7a643fbed960",
+    "expected_answer": "April 23, 1942",
+    "original_index": 2385,
+    "topic": "Politics",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/29",
+    "domain": "simpleqa",
+    "prompt": "The WWI Q-Ship \"Salvia\" was partially reconstructed with a false counter-stern to resemble what kind of ship?",
+    "prompt_sha256": "976fa672bebea6ae2992bad85f5e70aac166ad909a26145606dc74225a14fda4",
+    "expected_answer": "tramp steamer (or collier)",
+    "original_index": 29,
+    "topic": "History",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/1204",
+    "domain": "simpleqa",
+    "prompt": "What is the first and last name of the host who interviewed military pilot Eugene Bullard on NBC’s \"Today Show\"?",
+    "prompt_sha256": "beee79e25b6a7e5538fe774bd31b9014742a446de07fc59bf21e8398cfb736fc",
+    "expected_answer": "Dave Garroway",
+    "original_index": 1204,
+    "topic": "TV shows",
+    "answer_type": "Person"
+  },
+  {
+    "id": "SimpleQA-Verified/3422",
+    "domain": "simpleqa",
+    "prompt": "In which Nebraska city was painter Kathleen Gemberling Adkison born in 1917?",
+    "prompt_sha256": "d98e58b1b8a773c4ef1add688b000ca87896820c93361963c995b46b60103ff2",
+    "expected_answer": "Beatrice",
+    "original_index": 3422,
+    "topic": "Art",
+    "answer_type": "Place"
+  },
+  {
+    "id": "SimpleQA-Verified/3597",
+    "domain": "simpleqa",
+    "prompt": "What is the name of the book Cindy Sherman published in 2007?",
+    "prompt_sha256": "2291f8452d5c8973a10152c204ddbbda4159b6cc628690d61610a390c8615581",
+    "expected_answer": "A Play of Selves",
+    "original_index": 3597,
+    "topic": "Art",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/2001",
+    "domain": "simpleqa",
+    "prompt": "What country placed 8th in the women's épée team event of the 2020 Tokyo Olympics?",
+    "prompt_sha256": "24e7fb6061910a9f27a9ddae9e581dea33c7c71f866eef1c04ad34938dc1e271",
+    "expected_answer": "ROC",
+    "original_index": 2001,
+    "topic": "Sports",
+    "answer_type": "Other"
+  },
+  {
+    "id": "SimpleQA-Verified/1753",
+    "domain": "simpleqa",
+    "prompt": "Who was the Brazilian Vice-President of the International Mathematical Union in 2012?",
+    "prompt_sha256": "ef9ee312bf3a6be1166dbd8e952dbb1b0d9a7dc9a80504b7cacd373fc6a59073",
+    "expected_answer": "Marcelo Viana",
+    "original_index": 1753,
+    "topic": "Science and technology",
+    "answer_type": "Person"
+  },
+  {
+    "id": "SimpleQA-Verified/1018",
+    "domain": "simpleqa",
+    "prompt": "On what day, month, and year did the first Bennett Cup auto race, for a prize sponsored by New York Herald publisher James Gordon Bennett Jr., begin as five entrants departed from the Parc de Saint-Cloud, near Paris, on a 566-kilometer (352 miles) trip to Lyon?",
+    "prompt_sha256": "97cd65c0055a4c7c97e67afff2228db54110bcf4fe4d6ce49da7d9d2d367e91c",
+    "expected_answer": "June 14, 1900",
+    "original_index": 1018,
+    "topic": "Sports",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/850",
+    "domain": "simpleqa",
+    "prompt": "In what year did Welsh broadcaster Louise Elliott join Jamie Owen as host of a weekday morning show on BBC Radio Wales?",
+    "prompt_sha256": "2d19a5d03c4d500805b0e5e5a33fa1c82d438d1e358c1deca7782acc54febf88",
+    "expected_answer": "2007",
+    "original_index": 850,
+    "topic": "TV shows",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/3372",
+    "domain": "simpleqa",
+    "prompt": "What year was the alabaster sculpture known as the \"Teotihuacan Ocelot\" found?",
+    "prompt_sha256": "cea4ae7115e76c667b50a46dc311af3e8944ddccef8f50f70aeb1dbdd729c4a1",
+    "expected_answer": "1889",
+    "original_index": 3372,
+    "topic": "Art",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/2592",
+    "domain": "simpleqa",
+    "prompt": "How many lamps did the original Cape Hatteras Lighthouse contain?",
+    "prompt_sha256": "5190478bd5b1e90d973c500ea66f0279b61df46d0322c364d8ac925d247972fb",
+    "expected_answer": "18",
+    "original_index": 2592,
+    "topic": "Geography",
+    "answer_type": "Number"
+  },
+  {
+    "id": "SimpleQA-Verified/3290",
+    "domain": "simpleqa",
+    "prompt": "In what year was the beetle species Glipa andamana described?",
+    "prompt_sha256": "9c7b7aba0683aa803d0ea74a9a908e074fcc70dc815db6a3ffac81c1fd220259",
+    "expected_answer": "1941",
+    "original_index": 3290,
+    "topic": "Science and technology",
+    "answer_type": "Date"
+  },
+  {
+    "id": "SimpleQA-Verified/1842",
+    "domain": "simpleqa",
+    "prompt": "How many stages were in the original DS game's Pokémon Diamond and Pearl Pokémon contests?",
+    "prompt_sha256": "4eec92365e45351643adcb8f3f6857c850e558798eb2817413ef9a5802ea5b8f",
+    "expected_answer": "3",
+    "original_index": 1842,
+    "topic": "Video games",
+    "answer_type": "Number"
+  },
+  {
+    "id": "SimpleQA-Verified/1235",
+    "domain": "simpleqa",
+    "prompt": "What was the population of Spring Rock Township, Clinton County, Iowa, at the time of the 2000 Census?",
+    "prompt_sha256": "0bb9ea95ef5597fb3fd8e807a0bd72bfc9f24dc19a819a374ec2749ab5b367d5",
+    "expected_answer": "1142 (acceptable range: anything between 1129 and 1154)",
+    "original_index": 1235,
+    "topic": "Geography",
+    "answer_type": "Number"
+  },
+  {
+    "id": "SimpleQA-Verified/3893",
+    "domain": "simpleqa",
+    "prompt": "How many bronze medals did Sweden win at the 1956 Summer Olympics?",
+    "prompt_sha256": "818d1012b08f767990faf3407b9187727d72050ce025d6d8c3bd5ca45106b51a",
+    "expected_answer": "6",
+    "original_index": 3893,
+    "topic": "Sports",
+    "answer_type": "Number"
+  },
+  {
+    "id": "SimpleQA-Verified/761",
+    "domain": "simpleqa",
+    "prompt": "What was Bindy Johal's age in years when he immigrated to Vancouver, British Columbia, with his parents during his childhood?",
+    "prompt_sha256": "6862b4fbb31e6b37c6407cb91b2672359fbfbd3dc353bd4633b2f62be7f64f0c",
+    "expected_answer": "4 years.",
+    "original_index": 761,
+    "topic": "History",
+    "answer_type": "Number"
+  },
+  {
+    "id": "SimpleQA-Verified/3171",
+    "domain": "simpleqa",
+    "prompt": "Which grammar school did Diane Marie Disney attend before moving to Immaculate Heart High School?",
+    "prompt_sha256": "c786fcc540d7b18e459dbad591424e3da2eb73d05acf63c08a2ca1ab116701a5",
+    "expected_answer": "Los Feliz Grammar School.",
+    "original_index": 3171,
+    "topic": "Other",
+    "answer_type": "Place"
+  },
+  {
+    "id": "SimpleQA-Verified/1254",
+    "domain": "simpleqa",
+    "prompt": "What is the real name of the Japanese criminal known as the Ninja of Heisei?",
+    "prompt_sha256": "32f71adb5121e1d4a789148b1370cfc2f9f2fce210fdce3311fa2b5c8c2a21c7",
+    "expected_answer": "Mitsuaki Tanigawa",
+    "original_index": 1254,
+    "topic": "History",
+    "answer_type": "Person"
+  }
+]

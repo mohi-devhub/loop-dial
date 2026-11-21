@@ -1,0 +1,12 @@
+{
+  "files_over_50MB": 0,
+  "known_credentials_checked": 2,
+  "known_credentials_found": 0,
+  "workstation_paths_found": 0,
+  "personal_hf_account_identifiers_found": 0,
+  "caches_or_logs_found": 0,
+  "model_output_strings_sha_verified": 5334,
+  "github_repo_created": false,
+  "portfolio_committed": false,
+  "deployed": false
+}

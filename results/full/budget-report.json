@@ -1,0 +1,19 @@
+{
+  "hf_gpu_cost_upper_usd": 4.6291329999999995,
+  "modal_cost_upper_usd": 0.15786113917053937,
+  "full_study_cost_upper_usd": 4.786994139170539,
+  "full_study_cap_usd": 15,
+  "gpu_job_elapsed_seconds_upper": 6002.528141975403,
+  "gpu_job_elapsed_hours_upper": 1.6673689283265007,
+  "prelaunch_nominal_usd": 12.830716,
+  "gpu_job_id": "withheld",
+  "hf_billing_api_available": false,
+  "invoice_verified": false,
+  "prior_pilot_cost_upper_usd": 0.595829,
+  "worker_elapsed_seconds": 5986.778201542969,
+  "peak_gpu_memory_mib": 87209.0,
+  "paid_resource_window_seconds": 6436.04708814621,
+  "scored_inference_batch_seconds": 4729.15522890893,
+  "server_startup_seconds": 1182.6835148959653,
+  "provisioning_warmup_flush_shutdown_and_observation_seconds": 90.68939817050705
+}

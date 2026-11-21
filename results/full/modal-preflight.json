@@ -1,0 +1,9 @@
+{
+  "sandbox_id": "withheld",
+  "purpose": "preflight",
+  "created_epoch": 1795237415.695273,
+  "terminated_epoch": 1795237425.613076,
+  "seconds_upper": 9.917803049087524,
+  "cost_upper_usd": 0.00026093739822149277,
+  "rate_upper_usd_per_hour": 0.094716
+}

@@ -1,0 +1,88 @@
+{
+  "source": "https://thinkingmachines.ai/model-card/tml-d24-varloop-research/",
+  "html_sha256": "cfb6204535a8850c22dafed7c59cd28019de47d5c5fd899d19155709c8326e44",
+  "midtraining_passes": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "midtraining_sampling_ratio": [
+    1,
+    2,
+    6,
+    2,
+    1
+  ],
+  "posttraining_passes": 3,
+  "publisher_scores": [
+    {
+      "benchmark": "DeepSWE v1.1",
+      "publisher_percent_by_pass": {
+        "1": 0.7,
+        "2": 28.3,
+        "3": 47.4,
+        "4": 46.9,
+        "5": 48.2
+      },
+      "source": "https://thinkingmachines.ai/model-card/tml-d24-varloop-research/",
+      "model": "thinkingmachines/TML-d24-varloop-research",
+      "source_kind": "publisher report, not Loop Dial measurements"
+    },
+    {
+      "benchmark": "HLE (text only)",
+      "publisher_percent_by_pass": {
+        "1": 10.5,
+        "2": 20.0,
+        "3": 24.9,
+        "4": 25.4,
+        "5": 25.9
+      },
+      "source": "https://thinkingmachines.ai/model-card/tml-d24-varloop-research/",
+      "model": "thinkingmachines/TML-d24-varloop-research",
+      "source_kind": "publisher report, not Loop Dial measurements"
+    },
+    {
+      "benchmark": "GPQA Diamond",
+      "publisher_percent_by_pass": {
+        "1": 69.6,
+        "2": 79.2,
+        "3": 84.2,
+        "4": 81.9,
+        "5": 83.1
+      },
+      "source": "https://thinkingmachines.ai/model-card/tml-d24-varloop-research/",
+      "model": "thinkingmachines/TML-d24-varloop-research",
+      "source_kind": "publisher report, not Loop Dial measurements"
+    },
+    {
+      "benchmark": "SimpleQA Verified",
+      "publisher_percent_by_pass": {
+        "1": 6.3,
+        "2": 6.5,
+        "3": 7.3,
+        "4": 6.8,
+        "5": 6.7
+      },
+      "source": "https://thinkingmachines.ai/model-card/tml-d24-varloop-research/",
+      "model": "thinkingmachines/TML-d24-varloop-research",
+      "source_kind": "publisher report, not Loop Dial measurements"
+    },
+    {
+      "benchmark": "AA-Omniscience v1.1 (Public)",
+      "publisher_percent_by_pass": {
+        "1": 15.5,
+        "2": 16.3,
+        "3": 18.4,
+        "4": 18.0,
+        "5": 17.4
+      },
+      "source": "https://thinkingmachines.ai/model-card/tml-d24-varloop-research/",
+      "model": "thinkingmachines/TML-d24-varloop-research",
+      "source_kind": "publisher report, not Loop Dial measurements"
+    }
+  ],
+  "fixed_inkling_2_mini_series_included": false,
+  "our_knowledge_control_run": true
+}

@@ -1,0 +1,43 @@
+{
+  "checkpoint_label": "TML-d24-varloop-research (varloop research checkpoint)",
+  "grader": "loop-dial-math-equivalence-v2",
+  "source_sha256": "d2572361320cacded66538e8161f022e2336f877aa190f51aa7d48829e42d637",
+  "summary": [
+    {
+      "passes": 1,
+      "n": 50,
+      "correct": 50,
+      "raw_string_match_correct": 24,
+      "legacy_reference_correct": 44,
+      "grader_errors": 0,
+      "wilson_95": [
+        0.9286524008666414,
+        1
+      ]
+    },
+    {
+      "passes": 3,
+      "n": 50,
+      "correct": 50,
+      "raw_string_match_correct": 24,
+      "legacy_reference_correct": 44,
+      "grader_errors": 0,
+      "wilson_95": [
+        0.9286524008666414,
+        1
+      ]
+    },
+    {
+      "passes": 6,
+      "n": 50,
+      "correct": 50,
+      "raw_string_match_correct": 25,
+      "legacy_reference_correct": 47,
+      "grader_errors": 0,
+      "wilson_95": [
+        0.9286524008666414,
+        1
+      ]
+    }
+  ]
+}

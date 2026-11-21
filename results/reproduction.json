@@ -1,0 +1,8 @@
+{
+  "network_enabled": false,
+  "gpu_access_used": false,
+  "model_or_grader_calls": 0,
+  "numeric_values_checked": 9653,
+  "mismatches": [],
+  "tolerance": 1e-12
+}

@@ -1,0 +1,169 @@
+loop-dial/
+├── checks/
+│   ├── clean-clone.json
+│   ├── export-check.json
+│   ├── secret-scan.json
+│   └── size.json
+├── data/
+│   ├── full/
+│   │   ├── bbh.json
+│   │   ├── gsm8k.json
+│   │   ├── humaneval-tests.json
+│   │   ├── humaneval.json
+│   │   ├── manifest.json
+│   │   ├── math-repeat.json
+│   │   └── math.json
+│   ├── knowledge/
+│   │   ├── manifest.json
+│   │   └── simpleqa200.json
+│   ├── pilot50.json
+│   ├── source-manifest.json
+│   ├── subset-manifest.json
+│   └── throughput32.json
+├── evidence/
+│   └── publication-audit/
+│       ├── model-card-provenance.json
+│       └── model-card.html
+├── licenses/
+│   ├── bbh.txt
+│   ├── gsm8k.txt
+│   ├── human_eval.txt
+│   ├── manifest.json
+│   ├── math_card.txt
+│   ├── math_original.txt
+│   ├── prm_license.txt
+│   └── simpleqa_card.txt
+├── reference/
+│   ├── analyze_full.json
+│   ├── analyze_knowledge.json
+│   ├── full-budget.json
+│   ├── knowledge-budget.json
+│   ├── legacy-sanity.json
+│   ├── model-card-context.json
+│   ├── pilot-summary.json
+│   └── publication.json
+├── results/
+│   ├── full/
+│   │   ├── charts/
+│   │   │   ├── accuracy-vs-latency-pareto.png
+│   │   │   ├── accuracy-vs-latency-pareto.svg
+│   │   │   ├── accuracy-vs-passes.png
+│   │   │   ├── accuracy-vs-passes.svg
+│   │   │   ├── math-difficulty-reasoning.png
+│   │   │   ├── math-difficulty-reasoning.svg
+│   │   │   ├── tokens-vs-passes.png
+│   │   │   └── tokens-vs-passes.svg
+│   │   ├── analysis.json
+│   │   ├── audit.json
+│   │   ├── billing-access-check.json
+│   │   ├── budget-report.json
+│   │   ├── events.jsonl
+│   │   ├── failure-examples.json
+│   │   ├── forecast.json
+│   │   ├── gsm8k-legacy-sanity.json
+│   │   ├── gsm8k-legacy-sanity.jsonl
+│   │   ├── interpretation.md
+│   │   ├── job-bundle.zip
+│   │   ├── job-state.json
+│   │   ├── legacy-grades.jsonl
+│   │   ├── metrics.csv
+│   │   ├── modal-ledger.jsonl
+│   │   ├── modal-preflight.json
+│   │   ├── pareto.json
+│   │   ├── scored-outputs.jsonl.gz
+│   │   ├── summary.json
+│   │   └── thread-lengths.json
+│   ├── knowledge/
+│   │   ├── analysis.json
+│   │   ├── budget-report.json
+│   │   ├── cost-timestamps.json
+│   │   ├── events.jsonl
+│   │   ├── grader-batch-state.json
+│   │   ├── grader-output.jsonl
+│   │   ├── grading-budget.json
+│   │   ├── scored-outputs.jsonl.gz
+│   │   └── summary.json
+│   ├── pilot/
+│   │   ├── rescored-numeric-v2-summary.json
+│   │   └── rescored-numeric-v2.jsonl.gz
+│   ├── publication/
+│   │   ├── charts/
+│   │   │   ├── cost-per-correct-vs-passes.png
+│   │   │   ├── cost-per-correct-vs-passes.svg
+│   │   │   ├── knowledge-control-context.png
+│   │   │   ├── knowledge-control-context.svg
+│   │   │   ├── reasoning-tokens-vs-passes.png
+│   │   │   └── reasoning-tokens-vs-passes.svg
+│   │   ├── analysis.json
+│   │   ├── coverage.json
+│   │   ├── full-results.csv
+│   │   ├── knowledge-control-forecast.json
+│   │   └── model-card-context.json
+│   ├── export-provenance.json
+│   └── reproduction.json
+├── scripts/
+│   ├── analyze_full.py
+│   ├── analyze_knowledge.py
+│   ├── analyze_pilot.py
+│   ├── check_pilot.py
+│   ├── estimate_budget.py
+│   ├── failure_examples.py
+│   ├── fetch_datasets.py
+│   ├── forecast_full.py
+│   ├── forecast_knowledge_control.py
+│   ├── full_status.py
+│   ├── full_worker.py
+│   ├── grade_knowledge.py
+│   ├── humaneval_sandbox.py
+│   ├── knowledge_status.py
+│   ├── knowledge_worker.py
+│   ├── math_equivalence.py
+│   ├── pilot_common.py
+│   ├── pilot_status.py
+│   ├── pilot_worker.py
+│   ├── plot_full.py
+│   ├── plot_pilot.py
+│   ├── plot_publication.py
+│   ├── prepare_full_data.py
+│   ├── prepare_knowledge.py
+│   ├── prepare_pilot.py
+│   ├── public_cleanup.py
+│   ├── publication_analysis.py
+│   ├── recompute_budgets.py
+│   ├── render_full_report.py
+│   ├── render_knowledge.py
+│   ├── render_publication.py
+│   ├── render_readme.py
+│   ├── render_thread.py
+│   ├── reproduce.py
+│   ├── rescore_pilot.py
+│   ├── rescore_pilot_numeric.py
+│   ├── run_full_job.py
+│   ├── run_knowledge_job.py
+│   ├── run_pilot_job.py
+│   ├── sanity_reference.py
+│   ├── score_numeric_full.py
+│   └── summarize_pilot.py
+├── .gitignore
+├── BUDGET.md
+├── DATASETS.md
+├── FORECAST.md
+├── FULL_RESULTS.md
+├── KNOWLEDGE_PLAN.md
+├── KNOWLEDGE_REPORT.md
+├── LICENSE
+├── METHODS.md
+├── PILOT_RESCORE.md
+├── PUBLICATION_AUDIT.md
+├── README.md
+├── REPORT.md
+├── REPRODUCE.md
+├── THIRD_PARTY_NOTICES.md
+├── TREE.txt
+├── X_THREAD_DRAFT.md
+├── full-config.json
+├── knowledge-config.json
+├── pilot-config.json
+├── requirements-analysis.txt
+├── requirements-grading.txt
+└── requirements-knowledge.txt

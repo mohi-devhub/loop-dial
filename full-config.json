@@ -1,0 +1,218 @@
+{
+  "scope": "approved_full_study",
+  "full_run_authorized": false,
+  "additional_runs_after_completion_authorized": false,
+  "checkpoint_label": "thinkingmachines/TML-d24-varloop-research (varloop research checkpoint)",
+  "model": "thinkingmachines/TML-d24-varloop-research",
+  "revision": "657b53ba5da7baefe9ff15dca5cd25f5bd3dbaa2",
+  "image": "lmsysorg/sglang@sha256:efac853b46811ccb760545b7b29e7119bdf907537ccf6e863fac3011fe8b98de",
+  "flavor": "rtx-pro-6000",
+  "output_dir": "results/full",
+  "cap_usd": 15,
+  "nominal_threshold_usd": 13,
+  "cpu_reserve_usd": 0.75,
+  "modal_project_cap_usd": 2,
+  "opening_credit_usd": 24.4,
+  "seed": 1729,
+  "subset_seed": 20261121,
+  "bootstrap_seed": 271828,
+  "concurrency": 32,
+  "context_length": 16384,
+  "max_tokens": 8192,
+  "reasoning_effort": "high",
+  "domain_counts": {
+    "gsm8k": 150,
+    "math": 200,
+    "humaneval": 164,
+    "bbh": 60
+  },
+  "main_passes": {
+    "gsm8k": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "math": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "humaneval": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "bbh": [
+      1,
+      3,
+      5
+    ]
+  },
+  "shared_passes": [
+    3,
+    5
+  ],
+  "shared_domains": [
+    "math",
+    "humaneval"
+  ],
+  "repeat_passes": [
+    1,
+    3
+  ],
+  "additional_repeat_runs": 2,
+  "repeat_counts": {
+    "math": 100,
+    "humaneval": 164
+  },
+  "execution_pass_order": [
+    3,
+    1,
+    2,
+    4,
+    5,
+    6
+  ],
+  "worker_hard_deadline_seconds": 17400,
+  "provider_timeout_seconds": 17700,
+  "local_cancel_after_seconds": 18000,
+  "cleanup_reserve_seconds": 600,
+  "budget_cuts_applied": [],
+  "cases": [
+    {
+      "key": "p3-separate-r0",
+      "passes": 3,
+      "share_cache": false,
+      "repeat": 0,
+      "domains": [
+        "math",
+        "humaneval",
+        "gsm8k",
+        "bbh"
+      ]
+    },
+    {
+      "key": "p1-separate-r0",
+      "passes": 1,
+      "share_cache": false,
+      "repeat": 0,
+      "domains": [
+        "math",
+        "humaneval",
+        "gsm8k",
+        "bbh"
+      ]
+    },
+    {
+      "key": "p2-separate-r0",
+      "passes": 2,
+      "share_cache": false,
+      "repeat": 0,
+      "domains": [
+        "math",
+        "humaneval",
+        "gsm8k"
+      ]
+    },
+    {
+      "key": "p4-separate-r0",
+      "passes": 4,
+      "share_cache": false,
+      "repeat": 0,
+      "domains": [
+        "math",
+        "humaneval",
+        "gsm8k"
+      ]
+    },
+    {
+      "key": "p5-separate-r0",
+      "passes": 5,
+      "share_cache": false,
+      "repeat": 0,
+      "domains": [
+        "math",
+        "humaneval",
+        "gsm8k",
+        "bbh"
+      ]
+    },
+    {
+      "key": "p6-separate-r0",
+      "passes": 6,
+      "share_cache": false,
+      "repeat": 0,
+      "domains": [
+        "math"
+      ]
+    },
+    {
+      "key": "p3-shared-r0",
+      "passes": 3,
+      "share_cache": true,
+      "repeat": 0,
+      "domains": [
+        "math",
+        "humaneval"
+      ]
+    },
+    {
+      "key": "p5-shared-r0",
+      "passes": 5,
+      "share_cache": true,
+      "repeat": 0,
+      "domains": [
+        "math",
+        "humaneval"
+      ]
+    },
+    {
+      "key": "p1-separate-r1",
+      "passes": 1,
+      "share_cache": false,
+      "repeat": 1,
+      "domains": [
+        "math",
+        "humaneval"
+      ]
+    },
+    {
+      "key": "p3-separate-r1",
+      "passes": 3,
+      "share_cache": false,
+      "repeat": 1,
+      "domains": [
+        "math",
+        "humaneval"
+      ]
+    },
+    {
+      "key": "p1-separate-r2",
+      "passes": 1,
+      "share_cache": false,
+      "repeat": 2,
+      "domains": [
+        "math",
+        "humaneval"
+      ]
+    },
+    {
+      "key": "p3-separate-r2",
+      "passes": 3,
+      "share_cache": false,
+      "repeat": 2,
+      "domains": [
+        "math",
+        "humaneval"
+      ]
+    }
+  ],
+  "public_archive": true
+}

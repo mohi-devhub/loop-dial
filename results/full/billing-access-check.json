@@ -1,0 +1,24 @@
+{
+  "invoice_verified": false,
+  "checks": [
+    {
+      "endpoint": "https://huggingface.co/api/settings/billing/usage/jobs",
+      "status_code": 403,
+      "checked_at_utc": "2026-11-21T07:12:04.697115+00:00",
+      "error": "{\"error\":\"Authorization error.\"}"
+    },
+    {
+      "endpoint": "https://huggingface.co/api/settings/billing/usage-v2",
+      "status_code": 403,
+      "checked_at_utc": "2026-11-21T07:12:05.213855+00:00",
+      "error": "{\"error\":\"Authorization error.\"}"
+    },
+    {
+      "endpoint": "https://huggingface.co/api/settings/billing/credits",
+      "status_code": 403,
+      "checked_at_utc": "2026-11-21T07:12:06.707505+00:00",
+      "error": "{\"error\":\"Authorization error.\"}"
+    }
+  ],
+  "billing_page_access": "Unauthenticated HTTP returns a WAF shell, not a verified invoice. Superset desktop executable is missing."
+}

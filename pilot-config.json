@@ -1,0 +1,60 @@
+{
+  "scope": "approved_pilot_only",
+  "checkpoint_label": "thinkingmachines/TML-d24-varloop-research (varloop research checkpoint)",
+  "model": "thinkingmachines/TML-d24-varloop-research",
+  "revision": "657b53ba5da7baefe9ff15dca5cd25f5bd3dbaa2",
+  "image": "lmsysorg/sglang@sha256:efac853b46811ccb760545b7b29e7119bdf907537ccf6e863fac3011fe8b98de",
+  "flavor": "rtx-pro-6000",
+  "cap_usd": 3,
+  "seed": 1729,
+  "subset_seed": 20261121,
+  "context_length": 16384,
+  "max_tokens": 8192,
+  "reasoning_effort": "high",
+  "passes_in_execution_order": [
+    3,
+    1,
+    6
+  ],
+  "share_cache": false,
+  "sweep_concurrencies": [
+    8,
+    16,
+    32
+  ],
+  "sweep_orders": [
+    [
+      8,
+      16,
+      32
+    ],
+    [
+      32,
+      8,
+      16
+    ],
+    [
+      16,
+      32,
+      8
+    ],
+    [
+      8,
+      32,
+      16
+    ],
+    [
+      16,
+      8,
+      32
+    ]
+  ],
+  "sweep_max_tokens": 128,
+  "sweep_max_cv": 0.2,
+  "worker_hard_deadline_seconds": 2400,
+  "provider_timeout_seconds": 2700,
+  "local_cancel_after_seconds": 3000,
+  "cleanup_reserve_seconds": 600,
+  "full_run_authorized": false,
+  "public_archive": true
+}

@@ -1,0 +1,48 @@
+{
+  "items": [
+    [
+      1,
+      "Added",
+      "Full results and timing definitions: FULL_RESULTS.md; per-level GPU isolation was not measured."
+    ],
+    [
+      2,
+      "Covered and expanded",
+      "Per-level paired length changes and hard/easy interaction below."
+    ],
+    [
+      3,
+      "Expanded",
+      "Per-run 1 vs 3 paired tests and hierarchical paired CIs below."
+    ],
+    [
+      4,
+      "Covered and expanded",
+      "Shared/separate KV at 3 and 5, with CIs and per-correct time."
+    ],
+    [
+      5,
+      "Complete",
+      "Officially graded 200-question knowledge control at passes 1/3/5"
+    ],
+    [
+      6,
+      "Added",
+      "Publisher context is separate; training ratio and depth labels cite the model card."
+    ],
+    [
+      7,
+      "Added",
+      "Level 5 scored 38/40 at three passes. Ceiling and headroom note below."
+    ],
+    [
+      8,
+      "Not verified",
+      "HF billing endpoints return 403. Cost estimates remain separate from an actual bill."
+    ]
+  ],
+  "new_compute_launched": true,
+  "new_compute_scope": "User-approved knowledge control, $5 cap",
+  "knowledge_control_complete": true,
+  "actual_bill_verified": false
+}

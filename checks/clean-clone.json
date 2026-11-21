@@ -1,0 +1,15 @@
+{
+  "network_enabled": false,
+  "gpu_access_used": false,
+  "model_or_grader_calls": 0,
+  "numeric_values_checked": 9667,
+  "mismatches": [],
+  "tolerance": 1e-12,
+  "exit_code": 0,
+  "clean_local_git_clone": true,
+  "isolated_virtualenv": true,
+  "credentials_removed_from_environment": true,
+  "source_commit": "cb552701be23d8dbc5c3948953d98c63cecffb7f",
+  "report_bytes_match": true,
+  "initial_dependency_failure": "Resolved undeclared sgl_eval import by using archived legacy grades"
+}
