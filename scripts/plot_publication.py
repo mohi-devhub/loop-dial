@@ -66,7 +66,7 @@ def main():
     knowledge_path = ROOT / "results/knowledge/analysis.json"
     knowledge = json.loads(knowledge_path.read_text()) if knowledge_path.exists() else None
     if knowledge:
-        fig, ax = setup("SimpleQA Verified: measured knowledge control", "Our 200 fixed questions · official GPT-4.1 grading · 95% Wilson intervals")
+        fig, ax = setup("SimpleQA Verified: measured knowledge control", "My 200 fixed questions · official GPT-4.1 grading · 95% Wilson intervals")
         observed = sorted(knowledge["conditions"], key=lambda r: r["passes"])
         y = [r["accuracy"] * 100 for r in observed]
         errors = [[r["accuracy"] * 100 - r["wilson_95"][0] * 100 for r in observed], [r["wilson_95"][1] * 100 - r["accuracy"] * 100 for r in observed]]

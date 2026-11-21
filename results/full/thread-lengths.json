@@ -1,18 +1,18 @@
 {
   "tweet_count": 6,
   "approximate_lengths_with_urls_as_23": [
-    203,
+    179,
     221,
     239,
     238,
-    268,
-    241
+    265,
+    268
   ],
   "posted": false,
   "attachments": {
     "3": "results/publication/charts/reasoning-tokens-vs-passes.png",
     "4": "results/publication/charts/cost-per-correct-vs-passes.png",
-    "6": "results/publication/charts/knowledge-control-context.png"
+    "5": "results/publication/charts/knowledge-control-context.png"
   },
   "knowledge_chart_is_our_measurement": true
 }

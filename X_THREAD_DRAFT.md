@@ -1,11 +1,10 @@
 # X thread draft
 
-Six posts. Nothing has been posted. The blog is the main link and the repository is the second link. All three charts include our own measurements; the knowledge chart also contains a separately labeled publisher reference.
+Six posts. Nothing has been posted. The repository is linked in post 1. The blog URL is last in post 6, which has no image attachment so its preview card can appear. All three charts include our own measurements; the knowledge chart also contains a separately labeled publisher reference.
 
 ## 1/6
 
 Loop Dial: I varied inference depth on thinkingmachines/TML-d24-varloop-research, the varloop research checkpoint. 5,334 scored responses on fixed subsets.
-https://mohith.xyz/blog/loop-dial
 https://github.com/mohi-devhub/loop-dial
 
 ## 2/6
@@ -26,11 +25,12 @@ Attachment: [cost-per-correct-vs-passes.png](results/publication/charts/cost-per
 
 ## 5/6
 
-MATH level 5 still had headroom: 38/40 correct at 3 passes, with a wide 95% CI of 83.5–98.6%. Repeat accuracy ranges reached 1 point on MATH and 1.8 on code. Passes 4–5 are midtraining only; 6 is untrained. The checkpoint was post-trained at 3.
+On 200 SimpleQA Verified questions, official grading gave 7.0%, 5.0%, 5.5% at 1/3/5 passes. Paired 1-vs-3 McNemar p=0.289. One run per depth cannot establish knowledge equivalence. The chart shows our 95% CIs; gray is publisher context only.
 https://thinkingmachines.ai/model-card/tml-d24-varloop-research/
+
+Attachment: [knowledge-control-context.png](results/publication/charts/knowledge-control-context.png)
 
 ## 6/6
 
-On 200 SimpleQA Verified questions, official grading gave 7.0%, 5.0%, 5.5% at 1/3/5 passes. Paired 1-vs-3 McNemar p=0.289. One run per depth cannot establish knowledge equivalence. The chart shows our 95% CIs; gray is publisher context only.
-
-Attachment: [knowledge-control-context.png](results/publication/charts/knowledge-control-context.png)
+MATH level 5 still had headroom: 38/40 correct at 3 passes, with a wide 95% CI of 83.5–98.6%. Repeat accuracy ranges reached 1 point on MATH and 1.8 on code. Passes 4–5 are midtraining only; 6 is untrained. The checkpoint was post-trained at 3.
+https://mohith.xyz/blog/loop-dial

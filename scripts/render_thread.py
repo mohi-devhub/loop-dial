@@ -37,16 +37,17 @@ def main():
         scores = ", ".join(f"{r['accuracy']*100:.1f}%" for r in conditions)
         tweets[0] = tweets[0].replace("4,734 saved responses", "5,334 saved responses").replace("math, code and reasoning subsets", "math, code, reasoning and knowledge subsets")
         tweets[5] = f"On 200 SimpleQA Verified questions, official grading gave {scores} at 1/3/5 passes. Paired 1-vs-3 McNemar p={p:.3g}. One run per depth cannot establish knowledge equivalence. The chart shows our 95% CIs; gray is publisher context only."
-    # Publication links remain drafts until the user's two approvals.
     total = a["n_outputs"] + (knowledge["scored_outputs"] if knowledge else 0)
-    tweets[0] = f"Loop Dial: I varied inference depth on thinkingmachines/TML-d24-varloop-research, the varloop research checkpoint. {total:,} scored responses on fixed subsets.\nhttps://mohith.xyz/blog/loop-dial\nhttps://github.com/mohi-devhub/loop-dial"
+    tweets[0] = f"Loop Dial: I varied inference depth on thinkingmachines/TML-d24-varloop-research, the varloop research checkpoint. {total:,} scored responses on fixed subsets.\nhttps://github.com/mohi-devhub/loop-dial"
+    tweets[4], tweets[5] = tweets[5], tweets[4]
     tweets[4] += "\nhttps://thinkingmachines.ai/model-card/tml-d24-varloop-research/"
+    tweets[5] += "\nhttps://mohith.xyz/blog/loop-dial"
     lengths = [len(re.sub(r"https?://\S+", "x" * 23, t)) for t in tweets]
     assert all(n <= 280 for n in lengths), lengths
-    attachments = {3: "results/publication/charts/reasoning-tokens-vs-passes.png", 4: "results/publication/charts/cost-per-correct-vs-passes.png", 6: "results/publication/charts/knowledge-control-context.png"}
+    attachments = {3: "results/publication/charts/reasoning-tokens-vs-passes.png", 4: "results/publication/charts/cost-per-correct-vs-passes.png", 5: "results/publication/charts/knowledge-control-context.png"}
     lines = ["# X thread draft", "", "Six posts. Nothing has been posted. Add the public report URL before publication. The knowledge control is missing; its chart contains publisher data only. Use the first two charts alone if you prefer not to include external context.", ""]
     if knowledge:
-        lines[2] = "Six posts. Nothing has been posted. The blog is the main link and the repository is the second link. All three charts include our own measurements; the knowledge chart also contains a separately labeled publisher reference."
+        lines[2] = "Six posts. Nothing has been posted. The repository is linked in post 1. The blog URL is last in post 6, which has no image attachment so its preview card can appear. All three charts include our own measurements; the knowledge chart also contains a separately labeled publisher reference."
     for i, tweet in enumerate(tweets, 1):
         lines += [f"## {i}/6", "", tweet, ""]
         if i in attachments:
